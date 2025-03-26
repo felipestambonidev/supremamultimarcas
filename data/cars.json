@@ -27,5 +27,35 @@
             "images/cars/chevrolet/montana/foto10montana.jpg"
         ]
         
+    },
+    
+    {
+        "id": 2,
+        "brand": "Fiat",
+        "model":"Fiat Uno",
+        "description": "Way 1.0 8V (Flex)",
+        "year": 2012,
+        "price": "R$ 34.900,00",
+        "endofplate": "9",
+        "carchange": "Manual",
+        "bodywork": "Hatchback",
+        "color": "Preto",
+        "km": "168.000",
+        "doors": 4,
+        "fuel":"Flex",
+        "slug":"fiat-uno-way-1-0-8v-flex-2012",
+        "images": [
+            "images/cars/fiat/uno/foto1uno.jpg",
+            "images/cars/fiat/uno/foto2uno.jpg",
+            "images/cars/fiat/uno/foto3uno.jpg",
+            "images/cars/fiat/uno/foto4uno.jpg",
+            "images/cars/fiat/uno/foto5uno.jpg",
+            "images/cars/fiat/uno/foto6uno.jpg",
+            "images/cars/fiat/uno/foto7uno.jpg",
+            "images/cars/fiat/uno/foto8uno.jpg",
+            "images/cars/fiat/uno/foto9uno.jpg",
+            "images/cars/fiat/uno/foto10uno.jpg"
+        ]
+        
     }
 ]
