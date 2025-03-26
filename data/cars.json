@@ -1,66 +1,31 @@
 [
     {
-        "foto": "",
-        "marca":"",
-        "modelo":"",
-        "caracteristica":"",
-        "ano":"",
-        "preco":""
-    },
-    {
-        "foto": "",
-        "marca":"",
-        "modelo":"",
-        "caracteristica":"",
-        "ano":"",
-        "preco":""
-    },
-    {
-        "foto": "",
-        "marca":"",
-        "modelo":"",
-        "caracteristica":"",
-        "ano":"",
-        "preco":""
-    },
-    {
-        "foto": "",
-        "marca":"",
-        "modelo":"",
-        "caracteristica":"",
-        "ano":"",
-        "preco":""
-    },
-    {
-        "foto": "",
-        "marca":"",
-        "modelo":"",
-        "caracteristica":"",
-        "ano":"",
-        "preco":""
-    },
-    {
-        "foto": "",
-        "marca":"",
-        "modelo":"",
-        "caracteristica":"",
-        "ano":"",
-        "preco":""
-    },
-    {
-        "foto": "",
-        "marca":"",
-        "modelo":"",
-        "caracteristica":"",
-        "ano":"",
-        "preco":""
-    },
-    {
-        "foto": "",
-        "marca":"",
-        "modelo":"",
-        "caracteristica":"",
-        "ano":"",
-        "preco":""
+        "id": 1,
+        "brand": "Chevrolet",
+        "model":"Chevrolet Montana",
+        "description": "Sport 1.4 (Flex)",
+        "year": 2018,
+        "price": "R$ 55.900,00",
+        "endofplate": "9",
+        "carchange": "Manual",
+        "bodywork": "Picape",
+        "color": "Preto",
+        "km": "93.000",
+        "doors": 2,
+        "fuel":"Flex",
+        "slug":"chevrolet-montana-sport-1-4-flex-2018",
+        "images": [
+            "images/cars/chevrolet/montana/foto1montana.jpg",
+            "images/cars/chevrolet/montana/foto2montana.jpg",
+            "images/cars/chevrolet/montana/foto3montana.jpg",
+            "images/cars/chevrolet/montana/foto4montana.jpg",
+            "images/cars/chevrolet/montana/foto5montana.jpg",
+            "images/cars/chevrolet/montana/foto6montana.jpg",
+            "images/cars/chevrolet/montana/foto7montana.jpg",
+            "images/cars/chevrolet/montana/foto8montana.jpg",
+            "images/cars/chevrolet/montana/foto9montana.jpg",
+            "images/cars/chevrolet/montana/foto10montana.jpg"
+        ]
+        
     }
 ]
