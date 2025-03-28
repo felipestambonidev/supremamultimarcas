@@ -12,7 +12,7 @@ const Header = () => {
   return (
     <header className="bg-[#3F3D3D] border border-[#FF4420]/20 rounded-full p-3 mx-4 md:mx-auto max-w-4xl mt-5 md:max-w-5xl">
       <div className="flex justify-between items-center">
-        <Image src={Logo} alt="Logo Suprema" width={180} height={160} className="ml-5"/>
+        <Link href="/"><Image src={Logo} alt="Logo Suprema" width={180} height={160} className="ml-5"/></Link>
         <nav className="hidden md:flex text-[22px] gap-16 text-white font-semibold pr-12">
           <Link href="/" className="hover:text-[#FF4420] duration-700">HOME</Link>
           <Link href="#" className="hover:text-[#FF4420] duration-700">CARROS</Link>
