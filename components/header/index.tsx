@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
 import Image from "next/image";
+import Link from "next/link";
 import Logo from "../../public/images/logosuprema/logosuprema.png";
 
 const Header = () => {
@@ -13,9 +14,9 @@ const Header = () => {
       <div className="flex justify-between items-center">
         <Image src={Logo} alt="Logo Suprema" width={142} height={75} />
         <nav className="hidden md:flex text-[22px] gap-16 text-white font-semibold pr-20">
-          <a href="/" className="hover:text-[#FF4420] duration-700">HOME</a>
-          <a href="#" className="hover:text-[#FF4420] duration-700">CARROS</a>
-          <a href="#" className="hover:text-[#FF4420] duration-700">QUEM SOMOS</a>
+          <Link href="/" className="hover:text-[#FF4420] duration-700">HOME</Link>
+          <Link href="#" className="hover:text-[#FF4420] duration-700">CARROS</Link>
+          <Link href="#" className="hover:text-[#FF4420] duration-700">QUEM SOMOS</Link>
         </nav>
         <button className="md:hidden text-white text-3xl hover:text-[#FF4420] pr-5" onClick={() => setMenuOpen(!menuOpen)} aria-label={menuOpen ? "Fechar Menu" : "Abrir Menu"}>
             {menuOpen ? <FiX /> : <FiMenu />}
@@ -26,9 +27,9 @@ const Header = () => {
             <FiX />
         </button>
         <nav className="mt-10 flex flex-col space-y-8 text-white font-semibold text-xl">
-            <a href="/" className="hover:text-[#FF4420] duration-700">HOME</a>
-            <a href="#" className="hover:text-[#FF4420] duration-700">CARROS</a>
-            <a href="#" className="hover:text-[#FF4420] duration-700">QUEM SOMOS</a>
+            <Link href="/" className="hover:text-[#FF4420] duration-700">HOME</Link>
+            <Link href="#" className="hover:text-[#FF4420] duration-700">CARROS</Link>
+            <Link href="#" className="hover:text-[#FF4420] duration-700">QUEM SOMOS</Link>
         </nav>
       </div>
     </header>
