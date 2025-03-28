@@ -4,7 +4,7 @@ import { useState } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
 import Image from "next/image";
 import Link from "next/link";
-import Logo from "../../public/images/logosuprema/logosuprema.png";
+import Logo from "../../public/images/logosuprema/logomaior.png";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -12,8 +12,8 @@ const Header = () => {
   return (
     <header className="bg-[#3F3D3D] border border-[#FF4420]/20 rounded-full p-3 mx-4 md:mx-auto max-w-4xl mt-5 md:max-w-5xl">
       <div className="flex justify-between items-center">
-        <Image src={Logo} alt="Logo Suprema" width={142} height={75} />
-        <nav className="hidden md:flex text-[22px] gap-16 text-white font-semibold pr-20">
+        <Image src={Logo} alt="Logo Suprema" width={180} height={160} className="ml-5"/>
+        <nav className="hidden md:flex text-[22px] gap-16 text-white font-semibold pr-12">
           <Link href="/" className="hover:text-[#FF4420] duration-700">HOME</Link>
           <Link href="#" className="hover:text-[#FF4420] duration-700">CARROS</Link>
           <Link href="#" className="hover:text-[#FF4420] duration-700">QUEM SOMOS</Link>
