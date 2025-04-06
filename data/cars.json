@@ -14,18 +14,18 @@
         "doors": 2,
         "fuel":"Flex",
         "slug":"chevrolet-montana-sport-1-4-flex-2018",
-        "principalimage": "images/cars/chevrolet/montana/montanapreta1.jpg",
+        "principalimage": "/images/cars/chevrolet/montana/foto1montana.jpg",
         "images": [
-            "images/cars/chevrolet/montana/foto1montana.jpg",
-            "images/cars/chevrolet/montana/foto2montana.jpg",
-            "images/cars/chevrolet/montana/foto3montana.jpg",
-            "images/cars/chevrolet/montana/foto4montana.jpg",
-            "images/cars/chevrolet/montana/foto5montana.jpg",
-            "images/cars/chevrolet/montana/foto6montana.jpg",
-            "images/cars/chevrolet/montana/foto7montana.jpg",
-            "images/cars/chevrolet/montana/foto8montana.jpg",
-            "images/cars/chevrolet/montana/foto9montana.jpg",
-            "images/cars/chevrolet/montana/foto10montana.jpg"
+            "/images/cars/chevrolet/montana/foto1montana.jpg",
+            "/images/cars/chevrolet/montana/foto2montana.jpg",
+            "/images/cars/chevrolet/montana/foto3montana.jpg",
+            "/images/cars/chevrolet/montana/foto4montana.jpg",
+            "/images/cars/chevrolet/montana/foto5montana.jpg",
+            "/images/cars/chevrolet/montana/foto6montana.jpg",
+            "/images/cars/chevrolet/montana/foto7montana.jpg",
+            "/images/cars/chevrolet/montana/foto8montana.jpg",
+            "/images/cars/chevrolet/montana/foto9montana.jpg",
+            "/images/cars/chevrolet/montana/foto10montana.jpg"
         ]
         
     },
@@ -45,18 +45,18 @@
         "doors": 4,
         "fuel":"Flex",
         "slug":"fiat-uno-way-1-0-8v-flex-2012",
-        "principalimage": "images/cars/fiat/uno/foto1uno.jpg",
+        "principalimage": "/images/cars/fiat/uno/foto1uno.jpg",
         "images": [
-            "images/cars/fiat/uno/foto1uno.jpg",
-            "images/cars/fiat/uno/foto2uno.jpg",
-            "images/cars/fiat/uno/foto3uno.jpg",
-            "images/cars/fiat/uno/foto4uno.jpg",
-            "images/cars/fiat/uno/foto5uno.jpg",
-            "images/cars/fiat/uno/foto6uno.jpg",
-            "images/cars/fiat/uno/foto7uno.jpg",
-            "images/cars/fiat/uno/foto8uno.jpg",
-            "images/cars/fiat/uno/foto9uno.jpg",
-            "images/cars/fiat/uno/foto10uno.jpg"
+            "/images/cars/fiat/uno/foto1uno.jpg",
+            "/images/cars/fiat/uno/foto2uno.jpg",
+            "/images/cars/fiat/uno/foto3uno.jpg",
+            "/images/cars/fiat/uno/foto4uno.jpg",
+            "/images/cars/fiat/uno/foto5uno.jpg",
+            "/images/cars/fiat/uno/foto6uno.jpg",
+            "/images/cars/fiat/uno/foto7uno.jpg",
+            "/images/cars/fiat/uno/foto8uno.jpg",
+            "/images/cars/fiat/uno/foto9uno.jpg",
+            "/images/cars/fiat/uno/foto10uno.jpg"
         ]
         
     },
@@ -76,17 +76,17 @@
         "doors": 4,
         "fuel":"Flex",
         "slug":"fiat-doblo-cargo-1-4-8v-flex-2012",
-        "principalimage": "images/cars/fiat/doblo/foto1doblo.jpg",
+        "principalimage": "/images/cars/fiat/doblo/foto1doblo.jpg",
         "images": [
-            "images/cars/fiat/doblo/foto1doblo.jpg",
-            "images/cars/fiat/doblo/foto2doblo.jpg",
-            "images/cars/fiat/doblo/foto3doblo.jpg",
-            "images/cars/fiat/doblo/foto4doblo.jpg",
-            "images/cars/fiat/doblo/foto5doblo.jpg",
-            "images/cars/fiat/doblo/foto6doblo.jpg",
-            "images/cars/fiat/doblo/foto7doblo.jpg",
-            "images/cars/fiat/doblo/foto8doblo.jpg",
-            "images/cars/fiat/doblo/foto9doblo.jpg"
+            "/images/cars/fiat/doblo/foto1doblo.jpg",
+            "/images/cars/fiat/doblo/foto2doblo.jpg",
+            "/images/cars/fiat/doblo/foto3doblo.jpg",
+            "/images/cars/fiat/doblo/foto4doblo.jpg",
+            "/images/cars/fiat/doblo/foto5doblo.jpg",
+            "/images/cars/fiat/doblo/foto6doblo.jpg",
+            "/images/cars/fiat/doblo/foto7doblo.jpg",
+            "/images/cars/fiat/doblo/foto8doblo.jpg",
+            "/images/cars/fiat/doblo/foto9doblo.jpg"
         ]
         
     },
@@ -106,18 +106,18 @@
         "doors": 4,
         "fuel":"Gasolina",
         "slug":"honda-civic-lx-1-6-16v-1999",
-        "principalimage": "images/cars/honda/civic/foto1civic.jpg",
+        "principalimage": "/images/cars/honda/civic/foto1civic.jpg",
         "images": [
-            "images/cars/honda/civic/foto1civic.jpg",
-            "images/cars/honda/civic/foto2civic.jpg",
-            "images/cars/honda/civic/foto3civic.jpg",
-            "images/cars/honda/civic/foto4civic.jpg",
-            "image/cars/honda/civic/foto5civic.jpg",
-            "images/cars/honda/civic/foto6civic.jpg",
-            "images/cars/honda/civic/foto7civic.jpg",
-            "image/cars/honda/civic/foto8civic.jpg",
-            "images/cars/honda/civic/foto9civic.jpg",
-            "images/cars/honda/civic/foto10civic.jpg"
+            "/images/cars/honda/civic/foto1civic.jpg",
+            "/images/cars/honda/civic/foto2civic.jpg",
+            "/images/cars/honda/civic/foto3civic.jpg",
+            "/images/cars/honda/civic/foto4civic.jpg",
+            "/images/cars/honda/civic/foto5civic.jpg",
+            "/images/cars/honda/civic/foto6civic.jpg",
+            "/images/cars/honda/civic/foto7civic.jpg",
+            "/images/cars/honda/civic/foto8civic.jpg",
+            "/images/cars/honda/civic/foto9civic.jpg",
+            "/images/cars/honda/civic/foto10civic.jpg"
         ]
         
     },
@@ -137,20 +137,20 @@
         "doors": 4,
         "fuel":"Flex",
         "slug":"hyundai-tucson-gls-2-0-16v-flex-2015",
-        "principalimage": "images/cars/hyundai/tucson/tucsonprata3.jpg",
+        "principalimage": "/images/cars/hyundai/tucson/tucsonprata3.jpg",
         "images": [
-            "images/cars/hyundai/tucson/tucsonprata1.jpg",
-            "images/cars/hyundai/tucson/tucsonprata2.jpg",
-            "images/cars/hyundai/tucson/tucsonprata3.jpg",
-            "images/cars/hyundai/tucson/tucsonprata4.jpg",
-            "images/cars/hyundai/tucson/tucsonprata5.jpg",
-            "images/cars/hyundai/tucson/tucsonprata6.jpg",
-            "images/cars/hyundai/tucson/tucsonprata7.jpg",
-            "images/cars/hyundai/tucson/tucsonprata8.jpg",
-            "images/cars/hyundai/tucson/tucsonprata9.jpg",
-            "images/cars/hyundai/tucson/tucsonprata10.jpg",
-            "images/cars/hyundai/tucson/tucsonprata11.jpg",
-            "images/cars/hyundai/tucson/tucsonprata12.jpg"
+            "/images/cars/hyundai/tucson/tucsonprata1.jpg",
+            "/images/cars/hyundai/tucson/tucsonprata2.jpg",
+            "/images/cars/hyundai/tucson/tucsonprata3.jpg",
+            "/images/cars/hyundai/tucson/tucsonprata4.jpg",
+            "/images/cars/hyundai/tucson/tucsonprata5.jpg",
+            "/images/cars/hyundai/tucson/tucsonprata6.jpg",
+            "/images/cars/hyundai/tucson/tucsonprata7.jpg",
+            "/images/cars/hyundai/tucson/tucsonprata8.jpg",
+            "/images/cars/hyundai/tucson/tucsonprata9.jpg",
+            "/images/cars/hyundai/tucson/tucsonprata10.jpg",
+            "/images/cars/hyundai/tucson/tucsonprata11.jpg",
+            "/images/cars/hyundai/tucson/tucsonprata12.jpg"
         ]    
     },
 
@@ -169,21 +169,21 @@
         "doors": 4,
         "fuel":"Diesel",
         "slug":"jeep-commander-2-0-td380-overland-4wd-2022",
-        "principalimage": "images/cars/jeep/commander/foto1commander.jpg",
+        "principalimage": "/images/cars/jeep/commander/foto1commander.jpg",
         "images": [
-            "images/cars/jeep/commander/foto1commander.jpg",
-            "images/cars/jeep/commander/foto2commander.jpg",
-            "images/cars/jeep/commander/foto3commander.jpg",
-            "images/cars/jeep/commander/foto4commander.jpg",
-            "images/cars/jeep/commander/foto5commander.jpg",
-            "images/cars/jeep/commander/foto6commander.jpg",
-            "images/cars/jeep/commander/foto7commander.jpg",
-            "images/cars/jeep/commander/foto8commander.jpg",
-            "images/cars/jeep/commander/foto9commander.jpg",
-            "images/cars/jeep/commander/foto10commander.jpg",
-            "images/cars/jeep/commander/foto11commander.jpg",
-            "images/cars/jeep/commander/foto12commander.jpg",
-            "images/cars/jeep/commander/foto13commander.jpg"
+            "/images/cars/jeep/commander/foto1commander.jpg",
+            "/images/cars/jeep/commander/foto2commander.jpg",
+            "/images/cars/jeep/commander/foto3commander.jpg",
+            "/images/cars/jeep/commander/foto4commander.jpg",
+            "/images/cars/jeep/commander/foto5commander.jpg",
+            "/images/cars/jeep/commander/foto6commander.jpg",
+            "/images/cars/jeep/commander/foto7commander.jpg",
+            "/images/cars/jeep/commander/foto8commander.jpg",
+            "/images/cars/jeep/commander/foto9commander.jpg",
+            "/images/cars/jeep/commander/foto10commander.jpg",
+            "/images/cars/jeep/commander/foto11commander.jpg",
+            "/images/cars/jeep/commander/foto12commander.jpg",
+            "/images/cars/jeep/commander/foto13commander.jpg"
         ]    
     },
 
@@ -202,17 +202,17 @@
         "doors": 4,
         "fuel":"Diesel",
         "slug":"jeep-compass-2-0-tdi-serie-s-4wd-2021",
-        "principalimage": "images/cars/jeep/compass/foto1compass.jpg",
+        "principalimage": "/images/cars/jeep/compass/foto1compass.jpg",
         "images": [
-            "images/cars/jeep/compass/foto1compass.jpg",
-            "images/cars/jeep/compass/foto2compass.jpg",
-            "images/cars/jeep/compass/foto3compass.jpg",
-            "images/cars/jeep/compass/foto4compass.jpg",
-            "images/cars/jeep/compass/foto5compass.jpg",
-            "images/cars/jeep/compass/foto6compass.jpg",
-            "images/cars/jeep/compass/foto7compass.jpg",
-            "images/cars/jeep/compass/foto8compass.jpg",
-            "images/cars/jeep/compass/foto9compass.jpg"
+            "/images/cars/jeep/compass/foto1compass.jpg",
+            "/images/cars/jeep/compass/foto2compass.jpg",
+            "/images/cars/jeep/compass/foto3compass.jpg",
+            "/images/cars/jeep/compass/foto4compass.jpg",
+            "/images/cars/jeep/compass/foto5compass.jpg",
+            "/images/cars/jeep/compass/foto6compass.jpg",
+            "/images/cars/jeep/compass/foto7compass.jpg",
+            "/images/cars/jeep/compass/foto8compass.jpg",
+            "/images/cars/jeep/compass/foto9compass.jpg"
         ]    
     },
 
@@ -231,20 +231,20 @@
         "doors": 4,
         "fuel":"Flex",
         "slug":"jeep-renegade-1-8-longitude-flex-2019",
-        "principalimage": "images/cars/jeep/renegade/foto1renegade.jpg",
+        "principalimage": "/images/cars/jeep/renegade/foto1renegade.jpg",
         "images": [
-            "images/cars/jeep/renegade/foto1renegade.jpg",
-            "images/cars/jeep/renegade/foto2renegade.jpg",
-            "images/cars/jeep/renegade/foto3renegade.jpg",
-            "images/cars/jeep/renegade/foto4renegade.jpg",
-            "images/cars/jeep/renegade/foto5renegade.jpg",
-            "images/cars/jeep/renegade/foto6renegade.jpg",
-            "images/cars/jeep/renegade/foto7renegade.jpg",
-            "images/cars/jeep/renegade/foto8renegade.jpg",
-            "images/cars/jeep/renegade/foto9renegade.jpg",
-            "images/cars/jeep/renegade/foto10renegade.jpg",
-            "images/cars/jeep/renegade/foto11renegade.jpg",
-            "images/cars/jeep/renegade/foto12renegade.jpg"
+            "/images/cars/jeep/renegade/foto1renegade.jpg",
+            "/images/cars/jeep/renegade/foto2renegade.jpg",
+            "/images/cars/jeep/renegade/foto3renegade.jpg",
+            "/images/cars/jeep/renegade/foto4renegade.jpg",
+            "/images/cars/jeep/renegade/foto5renegade.jpg",
+            "/images/cars/jeep/renegade/foto6renegade.jpg",
+            "/images/cars/jeep/renegade/foto7renegade.jpg",
+            "/images/cars/jeep/renegade/foto8renegade.jpg",
+            "/images/cars/jeep/renegade/foto9renegade.jpg",
+            "/images/cars/jeep/renegade/foto10renegade.jpg",
+            "/images/cars/jeep/renegade/foto11renegade.jpg",
+            "/images/cars/jeep/renegade/foto12renegade.jpg"
         ]    
     },
 
@@ -263,14 +263,14 @@
         "doors": 4,
         "fuel":"Flex",
         "slug":"renault-duster-2-0-16v-dynamique-flex-2015",
-        "principalimage": "images/cars/renault/duster/foto1duster.jpg",
+        "principalimage": "/images/cars/renault/duster/foto1duster.jpg",
         "images": [
-            "images/cars/renault/duster/foto1duster.jpg",
-            "images/cars/renault/duster/foto2duster.jpg",
-            "images/cars/renault/duster/foto3duster.jpg",
-            "images/cars/renault/duster/foto4duster.jpg",
-            "images/cars/renault/duster/foto5duster.jpg",
-            "images/cars/renault/duster/foto6duster.jpg"
+            "/images/cars/renault/duster/foto1duster.jpg",
+            "/images/cars/renault/duster/foto2duster.jpg",
+            "/images/cars/renault/duster/foto3duster.jpg",
+            "/images/cars/renault/duster/foto4duster.jpg",
+            "/images/cars/renault/duster/foto5duster.jpg",
+            "/images/cars/renault/duster/foto6duster.jpg"
            
         ]    
     },
@@ -290,18 +290,18 @@
         "doors": 4,
         "fuel":"Flex",
         "slug":"volkswagen-nivus-1-0-200-tsi-comfortline-flex-2023",
-        "principalimage": "images/cars/volkswagen/nivus/foto1nivus.jpg",
+        "principalimage": "/images/cars/volkswagen/nivus/foto1nivus.jpg",
         "images": [
-            "images/cars/volkswagen/nivus/foto1nivus.jpg",
-            "images/cars/volkswagen/nivus/foto2nivus.jpg",
-            "images/cars/volkswagen/nivus/foto3nivus.jpg",
-            "images/cars/volkswagen/nivus/foto4nivus.jpg",
-            "images/cars/volkswagen/nivus/foto5nivus.jpg",
-            "images/cars/volkswagen/nivus/foto6nivus.jpg",
-            "images/cars/volkswagen/nivus/foto7nivus.jpg",
-            "images/cars/volkswagen/nivus/foto8nivus.jpg",
-            "images/cars/volkswagen/nivus/foto9nivus.jpg",
-            "images/cars/volkswagen/nivus/foto10nivus.jpg"
+            "/images/cars/volkswagen/nivus/foto1nivus.jpg",
+            "/images/cars/volkswagen/nivus/foto2nivus.jpg",
+            "/images/cars/volkswagen/nivus/foto3nivus.jpg",
+            "/images/cars/volkswagen/nivus/foto4nivus.jpg",
+            "/images/cars/volkswagen/nivus/foto5nivus.jpg",
+            "/images/cars/volkswagen/nivus/foto6nivus.jpg",
+            "/images/cars/volkswagen/nivus/foto7nivus.jpg",
+            "/images/cars/volkswagen/nivus/foto8nivus.jpg",
+            "/images/cars/volkswagen/nivus/foto9nivus.jpg",
+            "/images/cars/volkswagen/nivus/foto10nivus.jpg"
         ]    
     }
 
