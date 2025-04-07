@@ -1,12 +1,14 @@
-import carros from '../../../data/cars.json'; // ajuste o path se necessário
+import carros from '../../../data/cars.json';
 import Image from 'next/image';
 import { notFound } from 'next/navigation';
 
-interface Params {
-  slug: string;
+interface PageProps {
+  params: {
+    slug: string;
+  };
 }
 
-export default async function CarDetailPage({ params }: { params: Params }) {
+export default async function CarDetailPage({ params }: PageProps) {
   const carro = carros.find((c) => c.slug === params.slug);
 
   if (!carro) return notFound();
