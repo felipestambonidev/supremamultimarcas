@@ -12,7 +12,7 @@ export async function generateStaticParams() {
   }));
 }
 
-export default function CarDetail({ params }: Props) {
+export default async function CarDetail({ params }: Props) {
   const car = cars.find((c) => c.slug === params.slug);
 
   if (!car) {
