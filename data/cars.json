@@ -15,6 +15,7 @@
         "fuel":"Flex",
         "slug":"chevrolet-montana-sport-1-4-flex-2018",
         "principalimage": "/images/cars/chevrolet/montana/foto1montana.jpg",
+        "highlight": false,
         "images": [
             "/images/cars/chevrolet/montana/foto1montana.jpg",
             "/images/cars/chevrolet/montana/foto2montana.jpg",
@@ -46,6 +47,7 @@
         "fuel":"Flex",
         "slug":"fiat-uno-way-1-0-8v-flex-2012",
         "principalimage": "/images/cars/fiat/uno/foto1uno.jpg",
+        "highlight": false,
         "images": [
             "/images/cars/fiat/uno/foto1uno.jpg",
             "/images/cars/fiat/uno/foto2uno.jpg",
@@ -77,6 +79,7 @@
         "fuel":"Flex",
         "slug":"fiat-doblo-cargo-1-4-8v-flex-2012",
         "principalimage": "/images/cars/fiat/doblo/foto1doblo.jpg",
+        "highlight": false,
         "images": [
             "/images/cars/fiat/doblo/foto1doblo.jpg",
             "/images/cars/fiat/doblo/foto2doblo.jpg",
@@ -107,6 +110,7 @@
         "fuel":"Gasolina",
         "slug":"honda-civic-lx-1-6-16v-1999",
         "principalimage": "/images/cars/honda/civic/foto1civic.jpg",
+        "highlight": false,
         "images": [
             "/images/cars/honda/civic/foto1civic.jpg",
             "/images/cars/honda/civic/foto2civic.jpg",
@@ -138,6 +142,7 @@
         "fuel":"Flex",
         "slug":"hyundai-tucson-gls-2-0-16v-flex-2015",
         "principalimage": "/images/cars/hyundai/tucson/tucsonprata3.jpg",
+        "highlight": false,
         "images": [
             "/images/cars/hyundai/tucson/tucsonprata1.jpg",
             "/images/cars/hyundai/tucson/tucsonprata2.jpg",
@@ -170,6 +175,7 @@
         "fuel":"Diesel",
         "slug":"jeep-commander-2-0-td380-overland-4wd-2022",
         "principalimage": "/images/cars/jeep/commander/foto1commander.jpg",
+        "highlight": true,
         "images": [
             "/images/cars/jeep/commander/foto1commander.jpg",
             "/images/cars/jeep/commander/foto2commander.jpg",
@@ -203,6 +209,7 @@
         "fuel":"Diesel",
         "slug":"jeep-compass-2-0-tdi-serie-s-4wd-2021",
         "principalimage": "/images/cars/jeep/compass/foto1compass.jpg",
+        "highlight": true,
         "images": [
             "/images/cars/jeep/compass/foto1compass.jpg",
             "/images/cars/jeep/compass/foto2compass.jpg",
@@ -232,6 +239,7 @@
         "fuel":"Flex",
         "slug":"jeep-renegade-1-8-longitude-flex-2019",
         "principalimage": "/images/cars/jeep/renegade/foto1renegade.jpg",
+        "highlight": false,
         "images": [
             "/images/cars/jeep/renegade/foto1renegade.jpg",
             "/images/cars/jeep/renegade/foto2renegade.jpg",
@@ -291,6 +299,7 @@
         "fuel":"Flex",
         "slug":"volkswagen-nivus-1-0-200-tsi-comfortline-flex-2023",
         "principalimage": "/images/cars/volkswagen/nivus/foto1nivus.jpg",
+        "highlight": true,
         "images": [
             "/images/cars/volkswagen/nivus/foto1nivus.jpg",
             "/images/cars/volkswagen/nivus/foto2nivus.jpg",
