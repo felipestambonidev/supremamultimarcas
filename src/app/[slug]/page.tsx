@@ -2,20 +2,20 @@ import carros from '../../../data/cars.json';
 import Image from 'next/image';
 import { notFound } from 'next/navigation';
 
-interface PageProps {
-  params: {
-    slug: string;
-  };
-}
-
-export default async function CarDetailPage({ params }: PageProps) {
+export default async function CarDetailPage({
+  params,
+}: {
+  params: { slug: string };
+}) {
   const carro = carros.find((c) => c.slug === params.slug);
 
   if (!carro) return notFound();
 
   return (
     <div className="p-4">
-      <h1 className="text-2xl font-bold">{carro.brand} {carro.model}</h1>
+      <h1 className="text-2xl font-bold">
+        {carro.brand} {carro.model}
+      </h1>
       <p className="text-lg">{carro.description}</p>
       <Image
         src={carro.principalimage}
