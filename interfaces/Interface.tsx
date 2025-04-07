@@ -1,4 +1,4 @@
-type Car = {
+export type Car = {
     slug: string;
     model: string;
     description: string;
