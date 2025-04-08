@@ -1,4 +1,4 @@
-import CarCards from "../../components/cards/CarCard";
+import CarCardsHighlights from "../../components/cards/CarCardHighlights";
 import Header from "../../components/header";
 
 export default function Home() {
@@ -7,7 +7,7 @@ export default function Home() {
       <Header />
       <section></section>
       <section>
-        <CarCards />
+        <CarCardsHighlights />
       </section>
     </div>
   );
