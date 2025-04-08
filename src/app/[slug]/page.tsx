@@ -5,9 +5,10 @@ import { notFound } from 'next/navigation';
 export default async function CarDetailPage({
   params,
 }: {
-  params: { slug: string };
+  params: Promise<{ slug: string }>; 
 }) {
-  const carro = carros.find((c) => c.slug === params.slug);
+  const { slug } = await params;
+  const carro = carros.find((carro) => carro.slug === slug);
 
   if (!carro) return notFound();
 
