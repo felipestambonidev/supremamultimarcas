@@ -22,45 +22,29 @@ export default function CarCardsHighlights() {
       </section>
       <div className="mt-10 flex flex-col md:flex-row flex-wrap justify-center items-center gap-8 px-4">
         {highlightedCars.map((car, index) => (
-          <div
-            key={index}
-            className="bg-[#1E1E1E] border border-[#FF4420]/20 rounded-2xl p-5 shadow-xl hover:scale-105 transition-transform duration-300 max-w-[300px] w-full"
-          >
+          <div key={index} className="bg-[#1E1E1E] border border-[#FF4420]/20 rounded-2xl p-5 shadow-xl hover:scale-105 transition-transform duration-300 max-w-[400px] w-full">
             <div>
               <Link href={car.slug}>
-                <Image
-                  src={car.principalimage}
-                  alt={car.model}
-                  height={200}
-                  width={300}
-                  className="rounded-2xl w-full object-cover"
-                />
+                <Image src={car.principalimage} alt={car.model} height={200} width={300} className="rounded-2xl w-full object-cover" />
               </Link>
             </div>
             <div className="text-center mt-2 text-white font-medium uppercase text-2xl">
               <h1>{car.model}</h1>
-              <p className="text-sm text-gray-400 font-normal uppercase">
-                {car.description}
-              </p>
-              <p className="text-[#FF4420] text-3xl mt-2 font-bold">
-                {car.price}
-              </p>
+              <p className="text-sm text-gray-400 font-normal uppercase">{car.description}</p>
+              <p className="text-[#FF4420] text-3xl mt-2 font-bold">{car.price}</p>
             </div>
             <div className="flex justify-center gap-4 mt-2 text-white text-base font-medium flex-wrap">
               <div className="bg-[#2B2B2B] rounded-3xl p-2 px-4 flex items-center gap-2">
-                <IoCalendar />
+                <IoCalendar/>
                 <p>{car.year}</p>
               </div>
               <div className="bg-[#2B2B2B] rounded-3xl p-2 px-4 flex items-center gap-2 uppercase">
-                <BsFuelPumpFill />
-                <p>{car.fuel}</p>
+                <BsFuelPumpFill/>
+                <p>{car.fuel}</p>	
               </div>
             </div>
             <div>
-              <Link
-                href={car.slug}
-                className="bg-[#FF4420] text-white rounded-3xl p-2 px-4 mt-4 block text-center font-medium hover:bg-[#FF4420]/50 transition-colors duration-300"
-              >
+              <Link href={car.slug} className="bg-[#FF4420] text-white rounded-3xl p-2 px-4 mt-4 block text-center font-medium hover:bg-[#FF4420]/50 transition-colors duration-300">
                 VER MAIS
               </Link>
             </div>
