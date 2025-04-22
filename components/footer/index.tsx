@@ -29,6 +29,7 @@ export default function Footer() {
             height="150"
             loading="lazy"
             className="rounded-md border-2 border-white"/>
+            <h1 className='mt-2'>Av. Dr. Timóteo Penteado, 784 - Vila Hulda, Guarulhos - SP, 07094-000</h1>
         </div>
         <div className='p-5'>
           <h2 className="text-lg font-semibold mb-3">REDES SOCIAIS</h2>
@@ -43,6 +44,8 @@ export default function Footer() {
               <RiInfoI className="hover:text-orange-500 transition hover:scale-110"/>
             </Link>
           </div>
+          <h1 className='mt-2'>(11) 2408-1050</h1>
+          <h1 className='mt-1'>dmsuprema@hotmail.com</h1>
         </div>
       </div>
     </footer>
