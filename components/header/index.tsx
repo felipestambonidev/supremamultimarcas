@@ -15,8 +15,8 @@ const Header = () => {
         <Link href="/"><Image src={Logo} alt="Logo Suprema" width={180} height={160} className="ml-5"/></Link>
         <nav className="hidden md:flex text-[22px] gap-16 text-white font-semibold pr-12">
           <Link href="/" className="hover:text-[#FF4420] duration-700">HOME</Link>
-          <Link href="/" className="hover:text-[#FF4420] duration-700">CARROS</Link>
-          <Link href="#" className="hover:text-[#FF4420] duration-700">QUEM SOMOS</Link>
+          <Link href="/carros" className="hover:text-[#FF4420] duration-700">CARROS</Link>
+          <Link href="/quem-somos" className="hover:text-[#FF4420] duration-700">QUEM SOMOS</Link>
         </nav>
         <button className="md:hidden text-white text-3xl hover:text-[#FF4420] pr-5" onClick={() => setMenuOpen(!menuOpen)} aria-label={menuOpen ? "Fechar Menu" : "Abrir Menu"}>
             {menuOpen ? <FiX /> : <FiMenu />}
@@ -28,8 +28,8 @@ const Header = () => {
         </button>
         <nav className="mt-10 flex flex-col space-y-8 text-white font-semibold text-xl">
             <Link href="/" className="hover:text-[#FF4420] duration-700">HOME</Link>
-            <Link href="#" className="hover:text-[#FF4420] duration-700">CARROS</Link>
-            <Link href="#" className="hover:text-[#FF4420] duration-700">QUEM SOMOS</Link>
+            <Link href="/carros" className="hover:text-[#FF4420] duration-700">CARROS</Link>
+            <Link href="/quem-somos" className="hover:text-[#FF4420] duration-700">QUEM SOMOS</Link>
         </nav>
       </div>
     </header>
