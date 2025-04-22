@@ -3,9 +3,9 @@ import Header from "../../../components/header";
 export default function Carros(){
     return(
         <div>
-            <section>
+            <header>
                 <Header/>
-            </section>
+            </header>
         </div>
     )
 }
