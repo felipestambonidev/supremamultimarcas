@@ -1,7 +1,6 @@
 "use client"
 import { useEffect, useState } from "react";
-
-import Filter from "../filter";
+import FiltroCarros from "../../components/filter/index";
 
 export default function Banner() {
 
@@ -27,7 +26,7 @@ export default function Banner() {
           backgroundRepeat: "no-repeat", 
         }}
       ></div>
-     <div><Filter/></div> 
+     <div><FiltroCarros/></div> 
       <style jsx>{`
         @media (max-width: 768px) {
           div[style] {
