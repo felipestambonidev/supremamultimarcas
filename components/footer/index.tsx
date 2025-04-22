@@ -7,7 +7,7 @@ import { links } from '../../constants/links';
 
 export default function Footer() {
   return (
-    <footer className="bg-[#3F3D3D] border-2 border-[#3F3D3D] border-t-[#FF4420]/20 text-white py-10 px-6 mt-9">
+    <footer className="bg-[#3F3D3D] border-2 border-[#3F3D3D] border-t-[#FF4420]/20 text-white py-10 px-6 mt-14">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 text-sm text-center">
         <div className="flex justify-center items-center md:justify-start md:items-start mt-5">
           <Image src={Logo} alt="Logo" width={180} height={160}  className="w-auto max-w-[200px] h-auto" />
