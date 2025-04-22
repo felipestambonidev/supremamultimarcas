@@ -1,4 +1,5 @@
-import CarCardsHighlights from "../../components/cards/CarCardHighlights";
+import Banner from "../../components/banner";
+import CarCardsHighlights from "../../components/cards";
 import WhatsAppButton from "../../components/floatingbutton";
 import Footer from "../../components/footer";
 import Header from "../../components/header";
@@ -11,6 +12,7 @@ export default function Home() {
         <WhatsAppButton />
       </header>
       <section>
+        <Banner />
         <CarCardsHighlights />
       </section>
       <footer>
