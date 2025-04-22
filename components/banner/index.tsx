@@ -11,7 +11,8 @@ export default function Banner() {
           backgroundAttachment: "fixed",
           backgroundImage: "url('/images/banner/imagemfundo.png')",
           backgroundSize: "cover",
-          backgroundPosition: "70% 120%", 
+          backgroundPosition: "70% 90%",
+          backgroundRepeat: "no-repeat", 
         }}
       ></div>
      <div><Filter/></div> 
