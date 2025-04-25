@@ -1,38 +1,8 @@
 [
-    {
-        "id": 1,
-        "brand": "Chevrolet",
-        "model":"Chevrolet Montana",
-        "description": "Sport 1.4 (Flex)",
-        "year": 2018,
-        "price": "R$ 55.900,00",
-        "endofplate": "9",
-        "carchange": "Manual",
-        "bodywork": "Picape",
-        "color": "Preto",
-        "km": "93.000",
-        "doors": 2,
-        "fuel":"Flex",
-        "slug":"chevrolet-montana-sport-1-4-flex-2018",
-        "principalimage": "/images/cars/chevrolet/montana/foto1montana.jpg",
-        "highlight": false,
-        "images": [
-            "/images/cars/chevrolet/montana/foto1montana.jpg",
-            "/images/cars/chevrolet/montana/foto2montana.jpg",
-            "/images/cars/chevrolet/montana/foto3montana.jpg",
-            "/images/cars/chevrolet/montana/foto4montana.jpg",
-            "/images/cars/chevrolet/montana/foto5montana.jpg",
-            "/images/cars/chevrolet/montana/foto6montana.jpg",
-            "/images/cars/chevrolet/montana/foto7montana.jpg",
-            "/images/cars/chevrolet/montana/foto8montana.jpg",
-            "/images/cars/chevrolet/montana/foto9montana.jpg",
-            "/images/cars/chevrolet/montana/foto10montana.jpg"
-        ]
-        
-    },
+   
     
     {
-        "id": 2,
+        "id": 1,
         "brand": "Fiat",
         "model":"Fiat Uno",
         "description": "Way 1.0 8V (Flex)",
@@ -64,7 +34,7 @@
     },
 
     {
-        "id": 3,
+        "id": 2,
         "brand": "Fiat",
         "model":"Fiat Doblô",
         "description": "Cargo 1.4 8V (Flex)",
@@ -95,7 +65,7 @@
     },
 
     {
-        "id": 4,
+        "id": 3,
         "brand": "Honda",
         "model":"Honda Civic",
         "description": "LX 1.6 16V (Flex)",
@@ -110,7 +80,7 @@
         "fuel":"Gasolina",
         "slug":"honda-civic-lx-1-6-16v-1999",
         "principalimage": "/images/cars/honda/civic/foto1civic.jpg",
-        "highlight": false,
+        "highlight": true,
         "images": [
             "/images/cars/honda/civic/foto1civic.jpg",
             "/images/cars/honda/civic/foto2civic.jpg",
@@ -127,7 +97,7 @@
     },
 
     {
-        "id": 5,
+        "id": 4,
         "brand": "Hyundai",
         "model":"Hyundai Tucson",
         "description": "GLS 2.0 16V (Flex)",
@@ -159,42 +129,9 @@
         ]    
     },
 
-    {
-        "id": 6,
-        "brand": "Jeep",
-        "model":"Jeep Commander",
-        "description": "2.0 TD380 Overland 4WD",
-        "year": 2022,
-        "price": "R$ 196.900,00",
-        "endofplate": "7",
-        "carchange": "Automático",
-        "bodywork": "SUV",
-        "color": "Azul",
-        "km": "39.000",
-        "doors": 4,
-        "fuel":"Diesel",
-        "slug":"jeep-commander-2-0-td380-overland-4wd-2022",
-        "principalimage": "/images/cars/jeep/commander/foto1commander.jpg",
-        "highlight": true,
-        "images": [
-            "/images/cars/jeep/commander/foto1commander.jpg",
-            "/images/cars/jeep/commander/foto2commander.jpg",
-            "/images/cars/jeep/commander/foto3commander.jpg",
-            "/images/cars/jeep/commander/foto4commander.jpg",
-            "/images/cars/jeep/commander/foto5commander.jpg",
-            "/images/cars/jeep/commander/foto6commander.jpg",
-            "/images/cars/jeep/commander/foto7commander.jpg",
-            "/images/cars/jeep/commander/foto8commander.jpg",
-            "/images/cars/jeep/commander/foto9commander.jpg",
-            "/images/cars/jeep/commander/foto10commander.jpg",
-            "/images/cars/jeep/commander/foto11commander.jpg",
-            "/images/cars/jeep/commander/foto12commander.jpg",
-            "/images/cars/jeep/commander/foto13commander.jpg"
-        ]    
-    },
 
     {
-        "id": 7,
+        "id": 5,
         "brand": "Jeep",
         "model":"Jeep Compass",
         "description": "2.0 TDI Série S 4WD",
@@ -224,7 +161,7 @@
     },
 
     {
-        "id": 8,
+        "id": 6,
         "brand": "Jeep",
         "model":"Jeep Renegage",
         "description": "1.8 Longitude (Flex)",
@@ -256,35 +193,9 @@
         ]    
     },
 
+   
     {
-        "id": 9,
-        "brand": "Renault",
-        "model":"Renault Duster",
-        "description": "2.0 16V Dynamique (Flex)",
-        "year": 2015,
-        "price": "R$ 57.900,00",
-        "endofplate": "5",
-        "carchange": "Automático",
-        "bodywork": "SUV",
-        "color": "Branco",
-        "km": "112.000",
-        "doors": 4,
-        "fuel":"Flex",
-        "slug":"renault-duster-2-0-16v-dynamique-flex-2015",
-        "principalimage": "/images/cars/renault/duster/foto1duster.jpg",
-        "images": [
-            "/images/cars/renault/duster/foto1duster.jpg",
-            "/images/cars/renault/duster/foto2duster.jpg",
-            "/images/cars/renault/duster/foto3duster.jpg",
-            "/images/cars/renault/duster/foto4duster.jpg",
-            "/images/cars/renault/duster/foto5duster.jpg",
-            "/images/cars/renault/duster/foto6duster.jpg"
-           
-        ]    
-    },
-
-    {
-        "id": 10,
+        "id": 7,
         "brand": "Volkswagen",
         "model":"Volkswagen Nivus",
         "description": "1.0 200 TSI Comfortline (Flex)",
@@ -312,7 +223,137 @@
             "/images/cars/volkswagen/nivus/foto9nivus.jpg",
             "/images/cars/volkswagen/nivus/foto10nivus.jpg"
         ]    
+    },
+
+    {
+        "id":8,
+        "brand": "Chevrolet",
+        "model":"Chevrolet Corsa",
+        "description": "Hatch Maxx 1.4 (Flex)",
+        "year": 2008, 
+        "price": "R$ 28.900,00",
+        "endofplate": "8",
+        "carchange": "Manual",
+        "bodywork": "Hatchback",
+        "color": "Prata",
+        "km": "168.000",
+        "doors": 4,
+        "fuel":"Flex",
+        "slug":"chevrolet-corsa-hatch-maxx-1-4-flex-2008",
+        "principalimage": "/images/cars/chevrolet/corsa/foto1corsa.jpg",
+        "highlight": false,
+        "images": [
+            "/images/cars/chevrolet/corsa/foto1corsa.jpg",
+            "/images/cars/chevrolet/corsa/foto2corsa.jpg",
+            "/images/cars/chevrolet/corsa/foto3corsa.jpg",
+            "/images/cars/chevrolet/corsa/foto4corsa.jpg",
+            "/images/cars/chevrolet/corsa/foto5corsa.jpg",
+            "/images/cars/chevrolet/corsa/foto6corsa.jpg",
+            "/images/cars/chevrolet/corsa/foto7corsa.jpg",
+            "/images/cars/chevrolet/corsa/foto8corsa.jpg",
+            "/images/cars/chevrolet/corsa/foto9corsa.jpg",
+            "/images/cars/chevrolet/corsa/foto10corsa.jpg"
+        ]   
+    },
+
+    {
+        "id":9,
+        "brand": "Chevrolet",
+        "model":"Chevrolet Agile",
+        "description": "Hatch LT 1.4 8V (Flex)",
+        "year": 2011,
+        "price": "R$ 33.900,00",
+        "endofplate": "8",
+        "carchange": "Manual",
+        "bodywork": "Hatchback",
+        "color": "Prata",
+        "km": "103.000",
+        "doors": 4,
+        "fuel":"Flex",
+        "slug":"chevrolet-agile-hatch-lt-1-4-8v-flex-2011",
+        "principalimage": "/images/cars/chevrolet/agile/foto1agile.jpg",
+        "highlight":false,
+        "images":[
+            "/images/cars/chevrolet/agile/foto1agile.jpg",
+            "/images/cars/chevrolet/agile/foto2agile.jpg",
+            "/images/cars/chevrolet/agile/foto3agile.jpg",
+            "/images/cars/chevrolet/agile/foto4agile.jpg",
+            "/images/cars/chevrolet/agile/foto5agile.jpg",
+            "/images/cars/chevrolet/agile/foto6agile.jpg",
+            "/images/cars/chevrolet/agile/foto7agile.jpg",
+            "/images/cars/chevrolet/agile/foto8agile.jpg",
+            "/images/cars/chevrolet/agile/foto9agile.jpg",
+            "/images/cars/chevrolet/agile/foto10agile.jpg",
+            "/images/cars/chevrolet/agile/foto11agile.jpg"
+        ]
+    },
+
+    {
+        "id":10,
+        "brand": "Toyota",
+        "model":"Toyota Corolla",
+        "description": "Sedan 2.0 Dual VVT-i XEi Multi-Drive S (Flex)",
+        "year": 2016,
+        "price": "R$ 90.900,00",
+        "endofplate": "2",
+        "carchange": "Automático",
+        "bodywork": "Sedan",
+        "color": "Prata",
+        "km": "80.000",
+        "doors": 4,
+        "fuel":"Flex",
+        "slug":"toyota-corolla-sedan-2-0-dual-vvt-i-xei-multi-drive-s-flex-2016",
+        "principalimage": "/images/cars/toyota/corolla/foto1corolla.jpg",
+        "highlight": false,
+        "images": [
+            "/images/cars/toyota/corolla/foto1corolla.jpg",
+            "/images/cars/toyota/corolla/foto2corolla.jpg",
+            "/images/cars/toyota/corolla/foto3corolla.jpg",
+            "/images/cars/toyota/corolla/foto4corolla.jpg",
+            "/images/cars/toyota/corolla/foto5corolla.jpg",
+            "/images/cars/toyota/corolla/foto6corolla.jpg",
+            "/images/cars/toyota/corolla/foto7corolla.jpg",
+            "/images/cars/toyota/corolla/foto8corolla.jpg",
+            "/images/cars/toyota/corolla/foto9corolla.jpg",
+            "/images/cars/toyota/corolla/foto10corolla.jpg",
+            "/images/cars/toyota/corolla/foto11corolla.jpg"
+        ]
+
+
+    },
+
+    {
+        "id":11,
+        "brand":"Fiat",
+        "model":"Fiat Toro",
+        "description":"2.0 TDI Ranch 4WD",
+        "year": 2023,
+        "price":"R$160.900,00",
+        "endofplate":"4",
+        "carchange":"Automático",
+        "bodywork":"Picape",
+        "color":"Prata",
+        "km":"0",
+        "doors":4,
+        "fuel":"Diesel",
+        "slug":"fiat-toro-2-0-tdi-ranch-4wd-2023",
+        "principalimage":"/images/cars/fiat/toro/foto1toro.jpg",
+        "highlight":false,
+        "images":[
+            "/images/cars/fiat/toro/foto1toro.jpg",
+            "/images/cars/fiat/toro/foto2toro.jpg",
+            "/images/cars/fiat/toro/foto3toro.jpg",
+            "/images/cars/fiat/toro/foto4toro.jpg",
+            "/images/cars/fiat/toro/foto5toro.jpg",
+            "/images/cars/fiat/toro/foto6toro.jpg",
+            "/images/cars/fiat/toro/foto7toro.jpg",
+            "/images/cars/fiat/toro/foto8toro.jpg",
+            "/images/cars/fiat/toro/foto9toro.jpg",
+            "/images/cars/fiat/toro/foto10toro.jpg",
+            "/images/cars/fiat/toro/foto11toro.jpg"
+        ]
     }
+
 
 
 ]
