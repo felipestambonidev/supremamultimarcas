@@ -163,7 +163,7 @@
     {
         "id": 6,
         "brand": "Jeep",
-        "model":"Jeep Renegage",
+        "model":"Jeep Renegade",
         "description": "1.8 Longitude (Flex)",
         "year": 2019,
         "price": "R$ 94.900,00",
@@ -274,7 +274,7 @@
         "fuel":"Flex",
         "slug":"toyota-corolla-sedan-2-0-dual-vvt-i-xei-multi-drive-s-flex-2016",
         "principalimage": "/images/cars/toyota/corolla/foto1corolla.jpg",
-        "highlight": false,
+        "highlight": true,
         "images": [
             "/images/cars/toyota/corolla/foto1corolla.jpg",
             "/images/cars/toyota/corolla/foto2corolla.jpg",
