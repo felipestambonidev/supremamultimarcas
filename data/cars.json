@@ -18,6 +18,7 @@
         "slug":"fiat-uno-way-1-0-8v-flex-2012",
         "principalimage": "/images/cars/fiat/uno/foto1uno.jpg",
         "highlight": false,
+        "armored": "Não",
         "images": [
             "/images/cars/fiat/uno/foto1uno.jpg",
             "/images/cars/fiat/uno/foto2uno.jpg",
@@ -50,6 +51,7 @@
         "slug":"fiat-doblo-cargo-1-4-8v-flex-2012",
         "principalimage": "/images/cars/fiat/doblo/foto1doblo.jpg",
         "highlight": false,
+        "armored": "Não",
         "images": [
             "/images/cars/fiat/doblo/foto1doblo.jpg",
             "/images/cars/fiat/doblo/foto2doblo.jpg",
@@ -77,10 +79,11 @@
         "color": "Preto",
         "km": "263.000",
         "doors": 4,
-        "fuel":"Gasolina",
+        "fuel":"Flex",
         "slug":"honda-civic-lx-1-6-16v-1999",
         "principalimage": "/images/cars/honda/civic/foto1civic.jpg",
         "highlight": true,
+        "armored": "Não",
         "images": [
             "/images/cars/honda/civic/foto1civic.jpg",
             "/images/cars/honda/civic/foto2civic.jpg",
@@ -113,6 +116,7 @@
         "slug":"hyundai-tucson-gls-2-0-16v-flex-2015",
         "principalimage": "/images/cars/hyundai/tucson/tucsonprata3.jpg",
         "highlight": false,
+        "armored": "Não",
         "images": [
             "/images/cars/hyundai/tucson/tucsonprata1.jpg",
             "/images/cars/hyundai/tucson/tucsonprata2.jpg",
@@ -147,6 +151,7 @@
         "slug":"jeep-compass-2-0-tdi-serie-s-4wd-2021",
         "principalimage": "/images/cars/jeep/compass/foto1compass.jpg",
         "highlight": true,
+        "armored": "Não",
         "images": [
             "/images/cars/jeep/compass/foto1compass.jpg",
             "/images/cars/jeep/compass/foto2compass.jpg",
@@ -177,6 +182,7 @@
         "slug":"jeep-renegade-1-8-longitude-flex-2019",
         "principalimage": "/images/cars/jeep/renegade/foto1renegade.jpg",
         "highlight": false,
+        "armored": "Sim",
         "images": [
             "/images/cars/jeep/renegade/foto1renegade.jpg",
             "/images/cars/jeep/renegade/foto2renegade.jpg",
@@ -212,6 +218,7 @@
         "slug":"chevrolet-corsa-hatch-maxx-1-4-flex-2008",
         "principalimage": "/images/cars/chevrolet/corsa/foto1corsa.jpg",
         "highlight": false,
+        "armored": "Não",
         "images": [
             "/images/cars/chevrolet/corsa/foto1corsa.jpg",
             "/images/cars/chevrolet/corsa/foto2corsa.jpg",
@@ -243,6 +250,7 @@
         "slug":"chevrolet-agile-hatch-lt-1-4-8v-flex-2011",
         "principalimage": "/images/cars/chevrolet/agile/foto1agile.jpg",
         "highlight":false,
+        "armored": "Não",
         "images":[
             "/images/cars/chevrolet/agile/foto1agile.jpg",
             "/images/cars/chevrolet/agile/foto2agile.jpg",
@@ -275,6 +283,7 @@
         "slug":"toyota-corolla-sedan-2-0-dual-vvt-i-xei-multi-drive-s-flex-2016",
         "principalimage": "/images/cars/toyota/corolla/foto1corolla.jpg",
         "highlight": true,
+        "armored": "Não",
         "images": [
             "/images/cars/toyota/corolla/foto1corolla.jpg",
             "/images/cars/toyota/corolla/foto2corolla.jpg",
@@ -309,6 +318,7 @@
         "slug":"fiat-toro-2-0-tdi-ranch-4wd-2023",
         "principalimage":"/images/cars/fiat/toro/foto1toro.jpg",
         "highlight":false,
+        "armored": "Não",
         "images":[
             "/images/cars/fiat/toro/foto1toro.jpg",
             "/images/cars/fiat/toro/foto2toro.jpg",
