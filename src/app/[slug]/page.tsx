@@ -1,11 +1,15 @@
-import carros from '../../../data/cars.json';
-import Image from 'next/image';
-import { notFound } from 'next/navigation';
+import carros from "../../../data/cars.json";
+import { notFound } from "next/navigation";
+import Header from "../../../components/header";
+import WhatsAppButton from "../../../components/floatingbutton";
+import PrincipalImageSlug from "../../../components/principalimageslug";
+import InformationsSlug from "../../../components/informationslug";
+import DescriptionSlug from "../../../components/descriptionslug";
 
 export default async function CarDetailPage({
   params,
 }: {
-  params: Promise<{ slug: string }>; 
+  params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
   const carro = carros.find((carro) => carro.slug === slug);
@@ -13,29 +17,18 @@ export default async function CarDetailPage({
   if (!carro) return notFound();
 
   return (
-    <div className="p-4">
-      <h1 className="text-2xl font-bold">
-        {carro.brand} {carro.model}
-      </h1>
-      <p className="text-lg">{carro.description}</p>
-      <Image
-        src={carro.principalimage}
-        alt={carro.model}
-        width={600}
-        height={400}
-        className="my-4 rounded-lg"
-      />
-      <ul className="space-y-1">
-        <li><strong>Ano:</strong> {carro.year}</li>
-        <li><strong>Preço:</strong> {carro.price}</li>
-        <li><strong>Cor:</strong> {carro.color}</li>
-        <li><strong>Placa final:</strong> {carro.endofplate}</li>
-        <li><strong>Câmbio:</strong> {carro.carchange}</li>
-        <li><strong>Combustível:</strong> {carro.fuel}</li>
-        <li><strong>Km:</strong> {carro.km}</li>
-        <li><strong>Portas:</strong> {carro.doors}</li>
-        <li><strong>Carroceria:</strong> {carro.bodywork}</li>
-      </ul>
+    <div>
+      <header>
+        <Header />
+        <WhatsAppButton />
+      </header>
+      <section className="mt-20 flex items-center justify-center gap-36  mx-12 p-2 rounded-3xl">
+        <PrincipalImageSlug carro={carro} />
+        <InformationsSlug carro={carro} />
+      </section>
+      <section>
+        <DescriptionSlug carro={carro} />
+      </section>
     </div>
   );
 }
