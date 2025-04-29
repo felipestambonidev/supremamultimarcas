@@ -1,3 +1,4 @@
+import WhatsAppButton from "../../../components/floatingbutton";
 import Header from "../../../components/header";
 
 export default function QuemSomos(){
@@ -5,6 +6,7 @@ export default function QuemSomos(){
         <section>
             <header>
                 <Header/>
+                <WhatsAppButton/>
             </header>
         </section>
     )
