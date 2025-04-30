@@ -9,7 +9,7 @@ export interface Carro {
   carchange: string;
   bodywork: string;
   color: string;
-  km: string; // km é uma string no seu JSON
+  km: string; 
   doors: number;
   fuel: string;
   slug: string;
