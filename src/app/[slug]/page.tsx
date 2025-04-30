@@ -27,7 +27,7 @@ export default async function CarDetailPage({
         <InformationsSlug carro={carro} />
       </section>
       <section>
-        <DescriptionSlug carro={carro} />
+        <DescriptionSlug  />
       </section>
     </div>
   );

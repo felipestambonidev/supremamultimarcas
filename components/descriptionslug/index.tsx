@@ -1,4 +1,4 @@
-export default function DescriptionSlug({ carro }: { carro: any }) {
+export default function DescriptionSlug() {
   return (
     <div>
       <div className="mt-20 flex items-center justify-center">
@@ -7,3 +7,6 @@ export default function DescriptionSlug({ carro }: { carro: any }) {
     </div>
   );
 }
+
+
+// { carro }: { carro: any }
