@@ -4,7 +4,7 @@ import Header from "../../../components/header";
 import WhatsAppButton from "../../../components/floatingbutton";
 import PrincipalImageSlug from "../../../components/principalimageslug";
 import InformationsSlug from "../../../components/informationslug";
-import DescriptionSlug from "../../../components/descriptionslug";
+
 
 export default async function CarDetailPage({
   params,
@@ -27,7 +27,7 @@ export default async function CarDetailPage({
         <InformationsSlug carro={carro} />
       </section>
       <section>
-        <DescriptionSlug  />
+      
       </section>
     </div>
   );
