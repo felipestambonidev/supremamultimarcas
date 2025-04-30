@@ -2,8 +2,10 @@ import { IoCalendar, IoCarSportSharp } from "react-icons/io5";
 import { IoMdSpeedometer } from "react-icons/io";
 import Link from "next/link";
 import { links } from "../../constants/links";
+import { Carro } from "../../interfaces/Interface"
 
-export default function InformationsSlug({ carro }: { carro: any }) {
+
+export default function InformationsSlug({ carro }: { carro: Carro }) {
   return (
     <div className="text-center uppercase">
       <section>

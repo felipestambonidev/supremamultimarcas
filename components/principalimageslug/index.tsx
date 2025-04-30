@@ -1,6 +1,7 @@
 import Image from "next/image";
+import { Carro } from "../../interfaces/Interface"
 
-export default function PrincipalImageSlug({ carro }: { carro: any }) {
+export default function PrincipalImageSlug({ carro }: { carro: Carro }) {
   return (
     <div>
       <Image

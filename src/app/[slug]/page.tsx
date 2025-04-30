@@ -6,6 +6,7 @@ import PrincipalImageSlug from "../../../components/principalimageslug";
 import InformationsSlug from "../../../components/informationslug";
 
 
+
 export default async function CarDetailPage({
   params,
 }: {
@@ -24,7 +25,7 @@ export default async function CarDetailPage({
       </header>
       <section className="mt-20 flex items-center justify-center gap-36  mx-12 p-2 rounded-3xl">
         <PrincipalImageSlug carro={carro} />
-        <InformationsSlug carro={carro} />
+        <InformationsSlug carro={carro}  />
       </section>
       <section>
       
