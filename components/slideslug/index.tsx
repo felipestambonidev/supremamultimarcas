@@ -18,7 +18,7 @@ export default function CarImageSlider({ carro }: { carro: Carro }) {
           pagination={{ clickable: true }}
           modules={[Navigation, Pagination]}
           breakpoints={{
-            400: {
+            380: {
               slidesPerView: 1,
               spaceBetween: 90,
             },
