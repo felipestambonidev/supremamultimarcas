@@ -1,0 +1,31 @@
+.car-slider-container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .car-slide-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  
+  .swiper-pagination-bullet {
+    background-color: #ff4420; 
+    opacity: 1; 
+  }
+  
+  .swiper-pagination-bullet-active {
+    background-color: #ffffff; 
+  }
+  
+  
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: #ff4420;
+  }
+  
+  .swiper-button-next:hover,
+  .swiper-button-prev:hover {
+    color: #ffffff; 
+  }
