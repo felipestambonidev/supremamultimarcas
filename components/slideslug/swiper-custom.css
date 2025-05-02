@@ -1,11 +1,11 @@
 .car-slider-container {
     width: 100%;
-    margin: 0 auto;
+   
   }
   
   .car-slide-image {
-    width: 100%;
-    height: auto;
+    width: 400px;
+    height: 300px;
     border-radius: 8px;
   }
   
