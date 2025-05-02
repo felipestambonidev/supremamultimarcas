@@ -25,11 +25,11 @@ export default async function CarDetailPage({
         <Header />
         <WhatsAppButton />
       </header>
-      <section className="mt-20 flex items-center justify-center gap-36  mx-12 p-2 rounded-3xl">
+      <section className="mt-10 flex flex-col lg:flex-row items-center justify-center bg-[#3F3D3D]/20 shadow-2xl mx-4 lg:mx-12 p-5 rounded-3xl">
         <PrincipalImageSlug carro={carro} />
         <InformationsSlug carro={carro}  />
       </section>
-      <section className="mt-10 mx-12">
+      <section className="mx-12 mt-28">
         <CarImageSlider carro={carro} />
       </section>
       <footer>
