@@ -4,6 +4,8 @@ import Header from "../../../components/header";
 import WhatsAppButton from "../../../components/floatingbutton";
 import PrincipalImageSlug from "../../../components/principalimageslug";
 import InformationsSlug from "../../../components/informationslug";
+import CarImageSlider from "../../../components/slideslug";
+import Footer from "../../../components/footer";
 
 
 
@@ -27,9 +29,12 @@ export default async function CarDetailPage({
         <PrincipalImageSlug carro={carro} />
         <InformationsSlug carro={carro}  />
       </section>
-      <section>
-      
+      <section className="mt-10 mx-12">
+        <CarImageSlider carro={carro} />
       </section>
+      <footer>
+        <Footer/>
+      </footer>
     </div>
   );
 }
