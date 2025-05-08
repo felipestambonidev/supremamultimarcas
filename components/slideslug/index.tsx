@@ -27,13 +27,13 @@ export default function CarImageSlider({ carro }: { carro: Carro }) {
               slidesPerView: 1,
               spaceBetween: 50,
             },
-            410:{
-              slidesPerView:2,
+            430:{
+              slidesPerView:1,
               spaceBetween:20,
             },
             580: {
               slidesPerView: 2,
-              spaceBetween: 20,
+              spaceBetween: 10,
             },
             768: {
               slidesPerView: 2,
