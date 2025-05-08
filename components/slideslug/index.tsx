@@ -18,9 +18,18 @@ export default function CarImageSlider({ carro }: { carro: Carro }) {
           pagination={{ clickable: true }}
           modules={[Navigation, Pagination]}
           breakpoints={{
+
+            200:{
+              slidesPerView:1,
+              spaceBetween:50
+            },
             380: {
               slidesPerView: 1,
-              spaceBetween: 90,
+              spaceBetween: 50,
+            },
+            410:{
+              slidesPerView:2,
+              spaceBetween:20,
             },
             580: {
               slidesPerView: 2,
@@ -30,9 +39,13 @@ export default function CarImageSlider({ carro }: { carro: Carro }) {
               slidesPerView: 2,
               spaceBetween: 20,
             },
+            823:{
+              slidesPerView: 3,
+              spaceBetween: 20,
+            },
             1024: {
-              slidesPerView: 4,
-              spaceBetween: 10,
+              slidesPerView: 5,
+              spaceBetween: 5,
             },
           }}
           className="swiper-container"
