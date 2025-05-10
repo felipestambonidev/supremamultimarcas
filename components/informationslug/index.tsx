@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { links } from "../../constants/links";
 import { Carro } from "../../interfaces/Interface";
-import { link } from "fs";
 
 export default function InformationsSlug({ carro }: { carro: Carro }) {
   return (
