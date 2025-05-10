@@ -2,7 +2,6 @@ import carros from "../../../data/cars.json";
 import { notFound } from "next/navigation";
 import Header from "../../../components/header";
 import WhatsAppButton from "../../../components/floatingbutton";
-import PrincipalImageSlug from "../../../components/principalimageslug";
 import InformationsSlug from "../../../components/informationslug";
 import CarImageSlider from "../../../components/slideslug";
 import Footer from "../../../components/footer";
@@ -31,6 +30,9 @@ export default async function CarDetailPage({
       <div>
         <InformationsSlug carro={carro} />
       </div>
+      <footer>
+        <Footer/>
+      </footer>
     </div>
   );
 }
