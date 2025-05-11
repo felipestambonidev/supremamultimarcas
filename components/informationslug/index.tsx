@@ -6,7 +6,7 @@ import Form from "../form";
 export default function InformationsSlug({ carro }: { carro: Carro }) {
   return (
     <div>
-      <div className="bg-[#3F3D3D] p-3 mx-4 lg:mx-auto max-w-5xl md:max-w-5xl uppercase text-white rounded-t-lg relative z-10 -mt-2">
+      <div className="bg-[#3F3D3D] p-5 mx-4 lg:mx-auto max-w-5xl md:max-w-5xl uppercase text-white rounded-t-lg relative z-10 -mt-2">
         <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start text-center sm:text-left">
           <div>
             <h1 className="text-white text-3xl sm:text-3xl font-medium">
@@ -20,7 +20,7 @@ export default function InformationsSlug({ carro }: { carro: Carro }) {
             <h1 className="text-[#FF4420] text-4xl font-bold">{carro.price}</h1>
           </div>
         </div>
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mt-5 text-white text-base font-medium sm:gap-3 text-center">
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mt-5 text-white text-base font-medium sm:gap-3 text-center sm:text-left">
           <div>
             <h1 className="text-gray-400">Ano</h1>
             <h1>{carro.year}</h1>
