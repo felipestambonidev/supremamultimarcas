@@ -1,12 +1,13 @@
 import Link from "next/link";
 import { links } from "../../constants/links";
 import { Carro } from "../../interfaces/Interface";
+import Form from "../form";
 
 export default function InformationsSlug({ carro }: { carro: Carro }) {
   return (
     <div>
       <div className="bg-[#3F3D3D] p-3 mx-4 lg:mx-auto max-w-5xl md:max-w-5xl uppercase text-white rounded-t-lg relative z-10 -mt-2">
-        <div className="text-center sm:text-left">
+        <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start text-center sm:text-left">
           <div>
             <h1 className="text-white text-3xl sm:text-3xl font-medium">
               {carro.model}
@@ -15,52 +16,50 @@ export default function InformationsSlug({ carro }: { carro: Carro }) {
               {carro.description}
             </p>
           </div>
-          <div className="text-center sm:text-right">
-            <h1 className="text-[#FF4420] text-4xl mt-2 font-bold">
-              {carro.price}
-            </h1>
+          <div className="mt-2 sm:mt-0">
+            <h1 className="text-[#FF4420] text-4xl font-bold">{carro.price}</h1>
           </div>
-          <div className="grid grid-cols-2 sm:grid sm:grid-cols-4 gap-3 mt-5 text-white text-base font-medium sm:gap-5">
-            <div>
-              <h1 className="text-gray-400">Ano</h1>
-              <h1>{carro.year}</h1>
-            </div>
-            <div>
-              <h1 className="text-gray-400">KM</h1>
-              <h1>{carro.km}</h1>
-            </div>
-            <div>
-              <h1 className="text-gray-400">Câmbio</h1>
-              <h1>{carro.carchange}</h1>
-            </div>
-            <div>
-              <h1 className="text-gray-400">Carroceria</h1>
-              <h1>{carro.bodywork}</h1>
-            </div>
-            <div>
-              <h1 className="text-gray-400">Combustível</h1>
-              <h1>{carro.fuel}</h1>
-            </div>
-            <div>
-              <h1 className="text-gray-400">Final de Placa</h1>
-              <h1>{carro.endofplate}</h1>
-            </div>
-            <div>
-              <h1 className="text-gray-400">Cor</h1>
-              <h1>{carro.color}</h1>
-            </div>
-            <div>
-              <h1 className="text-gray-400">Blindado</h1>
-              <h1>{carro.armored}</h1>
-            </div>
-            <div>
-              <h1 className="text-gray-400">Portas</h1>
-              <h1>{carro.doors}</h1>
-            </div>
-            <div>
-              <h1 className="text-gray-400">Marca</h1>
-              <h1>{carro.brand}</h1>
-            </div>
+        </div>
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mt-5 text-white text-base font-medium sm:gap-3 text-center">
+          <div>
+            <h1 className="text-gray-400">Ano</h1>
+            <h1>{carro.year}</h1>
+          </div>
+          <div>
+            <h1 className="text-gray-400">KM</h1>
+            <h1>{carro.km}</h1>
+          </div>
+          <div>
+            <h1 className="text-gray-400">Câmbio</h1>
+            <h1>{carro.carchange}</h1>
+          </div>
+          <div>
+            <h1 className="text-gray-400">Carroceria</h1>
+            <h1>{carro.bodywork}</h1>
+          </div>
+          <div>
+            <h1 className="text-gray-400">Combustível</h1>
+            <h1>{carro.fuel}</h1>
+          </div>
+          <div>
+            <h1 className="text-gray-400">Final de Placa</h1>
+            <h1>{carro.endofplate}</h1>
+          </div>
+          <div>
+            <h1 className="text-gray-400">Cor</h1>
+            <h1>{carro.color}</h1>
+          </div>
+          <div>
+            <h1 className="text-gray-400">Blindado</h1>
+            <h1>{carro.armored}</h1>
+          </div>
+          <div>
+            <h1 className="text-gray-400">Portas</h1>
+            <h1>{carro.doors}</h1>
+          </div>
+          <div>
+            <h1 className="text-gray-400">Marca</h1>
+            <h1>{carro.brand}</h1>
           </div>
         </div>
       </div>
@@ -70,6 +69,9 @@ export default function InformationsSlug({ carro }: { carro: Carro }) {
             FALE CONOSCO
           </h1>
         </Link>
+      </div>
+      <div>
+        <Form />
       </div>
     </div>
   );
