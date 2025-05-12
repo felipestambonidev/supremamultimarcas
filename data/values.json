@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Excelência",
+    "description": "Buscamos a perfeição em cada detalhe, desde a seleção dos veículos até o pós-venda.",
+    "icon": "AiOutlineTrophy"
+  },
+  {
+    "title": "Transparência",
+    "description": "Todas as informações sobre nossos veículos e processos são claras e acessíveis.",
+    "icon": "AiOutlineEye"
+  },
+  {
+    "title": "Inovação",
+    "description": "Estamos sempre em busca das mais recentes tecnologias e tendências do mercado.",
+    "icon": "FiMonitor"
+  },
+  {
+    "title": "Personalização",
+    "description": "Cada cliente é único, e nosso atendimento é adaptado às suas necessidades específicas.",
+    "icon": "IoIosSettings"
+  },
+  {
+    "title": "Confiabilidade",
+    "description": "Nossos veículos passam por rigorosas inspeções para garantir qualidade e segurança.",
+    "icon": "AiOutlineCheckCircle"
+  },
+  {
+    "title": "Compromisso",
+    "description": "Estamos comprometidos com a satisfação total dos nossos clientes em todas as etapas.",
+    "icon": "RiShakeHandsLine"
+  }
+]
