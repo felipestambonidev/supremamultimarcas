@@ -1,6 +1,8 @@
+import Brands from "../../../components/brands";
 import WhatsAppButton from "../../../components/floatingbutton";
 import Footer from "../../../components/footer";
 import Header from "../../../components/header";
+import Results from "../../../components/results";
 import Values from "../../../components/values";
 
 
@@ -13,6 +15,8 @@ export default function QuemSomos(){
             </header>
             <div>
                <Values />
+               <Results />
+               <Brands />
             </div>
             <footer>
                 <Footer/>
