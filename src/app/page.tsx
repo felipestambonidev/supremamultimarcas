@@ -1,8 +1,12 @@
 import Banner from "../../components/banner";
 import CarCardsHighlights from "../../components/cards";
+import ChooseUs from "../../components/chooseus";
 import WhatsAppButton from "../../components/floatingbutton";
 import Footer from "../../components/footer";
 import Header from "../../components/header";
+import Highlights from "../../components/highligths";
+
+
 
 export default function Home() {
   return (
@@ -12,8 +16,10 @@ export default function Home() {
         <WhatsAppButton />
       </header>
       <section>
-        <Banner />
-        <CarCardsHighlights />
+        <Banner  />
+        <ChooseUs />
+        <Highlights />
+  
       </section>
       <footer>
         <Footer />
