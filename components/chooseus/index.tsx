@@ -14,7 +14,7 @@ export default function ChooseUs() {
           <h1 className="text-4xl font-bold tracking-tight mb-2 text-white uppercase">
             Por que escolher a Suprema?
           </h1>
-          <p className="text-gray-400 max-w-[700px] ">
+          <p className="text-gray-400 max-w-[700px] px-5">
             Há mais de 40 anos oferecendo os melhores veículos com qualidade e
             procedência garantida.
           </p>
