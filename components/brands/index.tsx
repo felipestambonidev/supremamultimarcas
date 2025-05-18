@@ -10,8 +10,9 @@ export default function Brands() {
   return (
     <section className="mt-5  bg-[#3F3D3D] py-16 md:py-24">
         <div className="flex flex-col items-center justify-center mb-10 text-3xl text-white font-bold">
-            <h1 className="text-3xl md:text-4xl font-medium">NOSSAS MARCAS</h1>
-            <p className="mx-auto max-w-2xl text-white text-base font-normal mt-2 text-center">Trabalhamos com as principais marcas do mercado automotivo</p>
+            <h1 className="text-3xl md:text-4xl font-bold
+            ">NOSSAS MARCAS</h1>
+            <p className="mx-auto max-w-2xl text-gray-400 text-base font-normal mt-2 text-center">Trabalhamos com as principais marcas do mercado automotivo</p>
         </div>
       <Swiper
         slidesPerView={4}
