@@ -1,5 +1,4 @@
 import Banner from "../../components/banner";
-import CarCardsHighlights from "../../components/cards";
 import ChooseUs from "../../components/chooseus";
 import WhatsAppButton from "../../components/floatingbutton";
 import Footer from "../../components/footer";
