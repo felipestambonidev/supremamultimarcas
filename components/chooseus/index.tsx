@@ -11,7 +11,7 @@ export default function ChooseUs() {
     <AnimatedSection>
       <section className="flex flex-col items-center justify-center text-center mt-10 ">
         <div className="flex flex-col items-center justify-center mb-10 text-center">
-          <h1 className="text-4xl font-bold tracking-tight mb-2 text-white">
+          <h1 className="text-4xl font-bold tracking-tight mb-2 text-white uppercase">
             Por que escolher a Suprema?
           </h1>
           <p className="text-gray-400 max-w-[700px] ">
