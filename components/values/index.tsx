@@ -1,17 +1,17 @@
 "use client";
 
 import { valuesData } from "../../data/valuesData";
-import { motion } from "framer-motion";  // Importando o framer-motion
+import { motion } from "framer-motion";  
 
 export default function Values() {
   return (
     <section className="py-16 md:py-24">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-medium text-white uppercase">
+          <h2 className="text-3xl md:text-4xl font-bold text-white uppercase">
             Nossos Valores
           </h2>
-          <p className="mx-auto max-w-2xl mt-2 text-white text-base">
+          <p className="mx-auto max-w-2xl mt-2 text-gray-400 text-base">
             Princípios que norteiam nossa atuação e garantem a satisfação dos nossos clientes
           </p>
         </div>
