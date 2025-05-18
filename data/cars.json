@@ -114,7 +114,7 @@
         "fuel":"Flex",
         "slug":"hyundai-tucson-gls-2-0-16v-flex-2015",
         "principalimage": "/images/cars/hyundai/tucson/tucsonprata3.jpg",
-        "highlight": false,
+        "highlight": true,
         "armored": "Não",
         "images": [
             "/images/cars/hyundai/tucson/tucsonprata1.jpg",
