@@ -59,6 +59,7 @@ export default function CarImageSlider({ carro }: { carro: Carro }) {
                 height={500}
                 className="car-slide-image"
                 style={{ objectFit: "cover" }}
+                priority={index === 0} 
               />
             </SwiperSlide>
           ))}
