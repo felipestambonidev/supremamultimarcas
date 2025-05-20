@@ -8,7 +8,7 @@ import { brandsList } from "../../data/brandsList";
 
 export default function Brands() {
   return (
-    <section className="mt-5  bg-[#3F3D3D] py-16 md:py-24">
+    <section className="mt-5  bg-[#1a1a1a] py-16 md:py-24">
         <div className="flex flex-col items-center justify-center mb-10 text-3xl text-white font-bold">
             <h1 className="text-3xl md:text-4xl font-bold
             ">NOSSAS MARCAS</h1>

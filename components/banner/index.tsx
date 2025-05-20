@@ -14,7 +14,7 @@ export default function Banner() {
   }, []);
 
   return (
-    <div className="relative h-[600px] overflow-hidden mt-5">
+    <div className="relative h-[600px] overflow-hidden mt-28">
       <div
         className="absolute inset-0 z-[-1] brightness-30"
         style={{

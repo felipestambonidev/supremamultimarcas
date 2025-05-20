@@ -20,8 +20,8 @@ export default function Highlights() {
 
   return (
     <AnimatedSection>
-      <section className="mt-20">
-        <div className="px-5 md:px-20 flex flex-col md:flex-row items-center md:items-center justify-center md:justify-between text-center md:text-left gap-2 md:gap-0">
+      <section className="mt-20 p-5">
+        <div className="px-5 md:px-16 flex flex-col md:flex-row items-center md:items-center justify-center md:justify-between text-center md:text-left gap-2 md:gap-0">
           <h1 className="text-4xl font-bold tracking-tight mb-2 text-white w-full md:w-auto">
             CONFIRA OS DESTAQUES
           </h1>
@@ -32,7 +32,7 @@ export default function Highlights() {
             VER TODOS <BiChevronRight className="h-5 w-4 ml-1" />
           </Link>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-11 px-12 md:px-20 mt-10 flex-col md:flex-row flex-wrap text-center justify-center justify-items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-11 px-12 md:px-16 mt-10 flex-col md:flex-row flex-wrap text-center justify-center justify-items-center">
           {highlightedCars.map((car, index) => (
             <Card
               key={index}

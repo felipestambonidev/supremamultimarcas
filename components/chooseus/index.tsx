@@ -9,8 +9,8 @@ import {
 export default function ChooseUs() {
   return (
     <AnimatedSection>
-      <section className="flex flex-col items-center justify-center text-center mt-10 ">
-        <div className="flex flex-col items-center justify-center mb-10 text-center">
+      <section className="flex flex-col items-center justify-center text-center  bg-[#1a1a1a]">
+        <div className="flex flex-col items-center justify-center mt-5 text-center">
           <h1 className="text-4xl font-bold tracking-tight mb-2 text-white uppercase">
             Por que escolher a Suprema?
           </h1>
@@ -19,7 +19,7 @@ export default function ChooseUs() {
             procedência garantida.
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 px-20">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 px-20 mt-10 mb-20">
           <Card>
             <div className="p-6">
               <div className="flex flex-col items-center text-center">

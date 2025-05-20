@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 export default function Results() {
   return (
-    <section className="py-16 md:py-24 bg-[#3F3D3D]">
+    <section className="py-16 md:py-24 bg-[#1a1a1a]">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid gap-8 md:grid-cols-4">
           {resultsData.map((stat, index) => (

@@ -83,14 +83,14 @@ export default function FiltroCarros() {
           <select
             value={marca}
             onChange={(e) => setMarca(e.target.value)}
-            className="bg-[#3F3D3D]/80 p-3 rounded-lg border border-[#FF4420]/20 text-white font-medium w-full hover:scale-105 transition-transform duration-300"
+            className="bg-[#121212]/80 p-3 rounded-lg border border-[#FF4420]/20 text-white font-medium w-full hover:scale-105 transition-transform duration-300"
           >
             <option>SELECIONE A MARCA</option>
             {marcas.map((m, i) => (
               <option
                 key={i}
                 value={m}
-                className="bg-[#1E1E1E] text-white font-medium uppercase"
+                className="bg-[#121212] text-white font-medium uppercase"
               >
                 {m}
               </option>
@@ -101,14 +101,14 @@ export default function FiltroCarros() {
             value={modelo}
             onChange={(e) => setModelo(e.target.value)}
             disabled={!marca}
-            className="bg-[#3F3D3D]/80 p-3 rounded-lg border border-[#FF4420]/20 text-white font-medium w-full hover:scale-105 transition-transform duration-300"
+            className="bg-[#121212]/80 p-3 rounded-lg border border-[#FF4420]/20 text-white font-medium w-full hover:scale-105 transition-transform duration-300"
           >
             <option>SELECIONE O MODELO</option>
             {modelosDisponiveis.map((m, i) => (
               <option
                 key={i}
                 value={m}
-                className="bg-[#1E1E1E] text-white font-medium uppercase"
+                className="bg-[#121212] text-white font-medium uppercase"
               >
                 {m}
               </option>
@@ -119,7 +119,7 @@ export default function FiltroCarros() {
             value={ano}
             onChange={(e) => setAno(e.target.value)}
             disabled={!modelo}
-            className="bg-[#3F3D3D]/80 p-3 rounded-lg border border-[#FF4420]/20 text-white font-medium w-full hover:scale-105 transition-transform duration-300"
+            className="bg-[#121212]/80 p-3 rounded-lg border border-[#FF4420]/20 text-white font-medium w-full hover:scale-105 transition-transform duration-300"
           >
             <option>SELECIONE O ANO</option>
             {anosDisponiveis.map((a, i) => (
@@ -137,14 +137,14 @@ export default function FiltroCarros() {
             value={cor}
             onChange={(e) => setCor(e.target.value)}
             disabled={!ano}
-            className="bg-[#3F3D3D]/80 p-3 rounded-lg border border-[#FF4420]/20 text-white font-medium w-full hover:scale-105 transition-transform duration-300"
+            className="bg-[#121212]/80 p-3 rounded-lg border border-[#FF4420]/20 text-white font-medium w-full hover:scale-105 transition-transform duration-300"
           >
             <option>SELECIONE A COR</option>
             {coresDisponiveis.map((c, i) => (
               <option
                 key={i}
                 value={c}
-                className="bg-[#1E1E1E] text-white font-medium uppercase"
+                className="bg-[#121212] text-white font-medium uppercase"
               >
                 {c}
               </option>
