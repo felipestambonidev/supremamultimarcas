@@ -1,6 +1,6 @@
 import carros from "../../../data/cars.json";
 import { notFound } from "next/navigation";
-import Header from "../../../components/header";
+import Header from "../../../components/ui/header";
 import WhatsAppButton from "../../../components/floatingbutton";
 import InformationsSlug from "../../../components/informationslug";
 import CarImageSlider from "../../../components/slideslug";

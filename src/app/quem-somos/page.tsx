@@ -1,7 +1,7 @@
 import Brands from "../../../components/brands";
 import WhatsAppButton from "../../../components/floatingbutton";
 import Footer from "../../../components/footer";
-import Header from "../../../components/header";
+import Header from "../../../components/ui/header";
 import Results from "../../../components/results";
 import Values from "../../../components/values";
 

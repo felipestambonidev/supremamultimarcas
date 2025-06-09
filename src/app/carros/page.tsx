@@ -1,7 +1,7 @@
 import CardsCar from "../../../components/cardscar";
 import WhatsAppButton from "../../../components/floatingbutton";
 import Footer from "../../../components/footer";
-import Header from "../../../components/header";
+import Header from "../../../components/ui/header";
 
 export default function Carros(){
     return(
