@@ -4,7 +4,7 @@ import Header from "../../../components/ui/header";
 import WhatsAppButton from "../../../components/floatingbutton";
 import InformationsSlug from "../../../components/informationslug";
 import CarImageSlider from "../../../components/slideslug";
-import Footer from "../../../components/footer";
+import Footer from "../../../components/ui/footer";
 
 
 
