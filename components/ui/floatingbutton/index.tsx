@@ -1,6 +1,6 @@
 import { FaWhatsapp } from "react-icons/fa";
 import Link from "next/link";
-import { links } from "../../constants/links";
+import { links } from "../../../constants/links";
 
 export default function WhatsAppButton() {
   return (

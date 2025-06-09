@@ -1,5 +1,5 @@
 import CardsCar from "../../../components/cardscar";
-import WhatsAppButton from "../../../components/floatingbutton";
+import WhatsAppButton from "../../../components/ui/floatingbutton";
 import Footer from "../../../components/footer";
 import Header from "../../../components/ui/header";
 

@@ -1,7 +1,7 @@
 import carros from "../../../data/cars.json";
 import { notFound } from "next/navigation";
 import Header from "../../../components/ui/header";
-import WhatsAppButton from "../../../components/floatingbutton";
+import WhatsAppButton from "../../../components/ui/floatingbutton";
 import InformationsSlug from "../../../components/informationslug";
 import CarImageSlider from "../../../components/slideslug";
 import Footer from "../../../components/ui/footer";

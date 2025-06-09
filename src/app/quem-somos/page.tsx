@@ -1,5 +1,5 @@
 import Brands from "../../../components/brands";
-import WhatsAppButton from "../../../components/floatingbutton";
+import WhatsAppButton from "../../../components/ui/floatingbutton";
 import Footer from "../../../components/ui/footer";
 import Header from "../../../components/ui/header";
 import Results from "../../../components/results";
