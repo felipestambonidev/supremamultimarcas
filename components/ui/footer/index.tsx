@@ -1,7 +1,7 @@
 import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 import { RiInfoI } from "react-icons/ri";
 import Image from "next/image";
-import Logo from "../../public/images/logosuprema/logomaior.png";
+import Logo from "../../../public/images/logosuprema/logomaior.png";
 import Link from "next/link";
 import { links } from "../../../constants/links";
 

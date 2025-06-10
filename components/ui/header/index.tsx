@@ -4,7 +4,7 @@ import { useState } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
 import Image from "next/image";
 import Link from "next/link";
-import Logo from "../../public/images/logosuprema/logomaior.png";
+import Logo from "../../../public/images/logosuprema/logomaior.png";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
