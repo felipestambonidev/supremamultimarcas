@@ -1,4 +1,4 @@
-import { AnimatedSection } from "../ui/animated-section";
+import { AnimatedSection } from "../ui/animations/animated-section";
 import { Card } from "../ui/card";
 import {
   IoShieldOutline,

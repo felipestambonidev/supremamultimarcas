@@ -4,7 +4,7 @@ import Image from "next/image";
 import { IoCalendar } from "react-icons/io5";
 import { BsFuelPumpFill } from "react-icons/bs";
 import { Card } from "../ui/card";
-import { AnimatedSection } from "../ui/animated-section";
+import { AnimatedSection } from "../ui/animations/animated-section";
 import { BiChevronRight } from "react-icons/bi";
 
 export default function Highlights() {
