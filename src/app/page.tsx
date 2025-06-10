@@ -1,7 +1,7 @@
 import Banner from "../../components/banner";
 import ChooseUs from "../../components/chooseus";
 import WhatsAppButton from "../../components/ui/floatingbutton";
-import Footer from "../../components/footer";
+import Footer from "../../components/ui/footer";
 import Header from "../../components/ui/header";
 import Highlights from "../../components/highligths";
 
