@@ -22,10 +22,10 @@ export default async function CarDetailPage({
   return (
     <div>
       <header>
-        {/* <Header/> */}
+        <Header/>
         <WhatsAppButton  />
       </header>
-      <div className="">
+      <div className="mt-32">
         <Informations carro={carro} />
       </div>
       <footer>
