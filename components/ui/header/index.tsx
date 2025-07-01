@@ -10,7 +10,7 @@ const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="bg-[#121212] border border-[#FF4420]/20 rounded-full p-3 mx-4 lg:mx-auto max-w-4xl mt-5 md:max-w-5xl fixed top-0 left-0 right-0 z-50 shadow-lg">
+    <header className="bg-[#121212] border border-[#FF4420]/20 rounded-full p-3 mx-4 lg:mx-auto max-w-4xl mt-5 md:max-w-5xl shadow-lg">
       <div className="flex justify-between items-center">
         <Link href="/"><Image src={Logo} alt="Logo Suprema" width={180} height={160} className="ml-5"/></Link>
         <nav className="hidden md:flex text-[22px] gap-16 text-white font-semibold pr-12">
