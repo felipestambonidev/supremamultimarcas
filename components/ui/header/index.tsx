@@ -22,7 +22,7 @@ const Header = () => {
             {menuOpen ? <FiX /> : <FiMenu />}
         </button>
       </div>
-      <div className={`fixed top-0 right-0 w-3/4 max-w-sm h-full bg-[#3F3D3D]/80 backdrop-blur-md z-50 shadow-lg flex flex-col items-start p-5 transform transition-transform duration-500 ${ menuOpen ? "translate-x-0" : "translate-x-full" }`}>
+      <div className={`fixed top-0 right-0 w-3/4 max-w-sm h-full bg-[#121212]/80 backdrop-blur-md z-50 shadow-lg flex flex-col items-start p-5 transform transition-transform duration-500 ${ menuOpen ? "translate-x-0" : "translate-x-full" }`}>
         <button className="text-white text-3xl hover:text-[#FF4420] self-end" onClick={() => setMenuOpen(false)} aria-label="Fechar Menu">
             <FiX />
         </button>
