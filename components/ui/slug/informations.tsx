@@ -40,10 +40,10 @@ export default function Informations({ carro }: { carro: Carro }) {
   };
 
   return (
-    <div className="flex items-center justify-between p-4  text-white relative">
+    <div className="flex items-center justify-between p-4 text-white relative mt-5">
       <div className="flex items-center">
         <Link href="/carros" passHref>
-          <button className="flex items-center justify-center w-10 h-10 rounded-sm border border-[#FF4420]/20">
+          <button className="flex items-center justify-center w-10 h-10 rounded-sm border border-[#FF4420]/20 bg-[#1E1E1E]">
             <IoIosArrowBack className="text-xl hover:scale-150 transition-transform duration-300" />
           </button>
         </Link>
@@ -54,7 +54,7 @@ export default function Informations({ carro }: { carro: Carro }) {
       <div className="flex items-center space-x-4">
         <button
           onClick={handleShare}
-          className="flex items-center justify-center w-10 h-10 rounded-sm border border-[#FF4420]/20 "
+          className="flex items-center justify-center w-10 h-10 rounded-sm bg-[#1E1E1E] border border-[#FF4420]/20"
         >
           <IoShareSocialOutline className="text-xl hover:scale-150 transition-transform duration-300" />
         </button>
