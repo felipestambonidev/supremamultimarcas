@@ -1,85 +1,141 @@
 "use client";
 
 import { useState } from "react";
+import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
+import { Carro } from "../../interfaces/Interface";
 
-export default function Form() {
+
+
+export function CarContactForm({ carro }: { carro: Carro }) {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
+  const [phone, setPhone] = useState("");
+  const [message, setMessage] = useState(`Olá, eu tenho interesse no ${carro.model} ${carro.description}.`);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [isSubmitted, setIsSubmitted] = useState(false);
 
-  function sendEmail(e: React.FormEvent<HTMLFormElement>) {
+  const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
 
-    if (name === "" || email === "" || message === "") {
+    if (name === "" || email === "" || phone === "" || message === "") {
       alert("Preencha todos os campos");
       return;
     }
 
+    setIsSubmitting(true);
+
     const templateParams = {
       from_name: name,
-      message: message,
-      email: email,
+      email,
+      phone,
+      message,
     };
 
     emailjs
       .send(
-        "service_se09jzg",
-        "template_j89ak1i",
+        "service_se09jzg",       
+        "template_j89ak1i",     
         templateParams,
-        "zjZ6JxujDEXl7Gatg"
+        "zjZ6JxujDEXl7Gatg"      
       )
-      .then(
-        (response) => {
-          console.log("EMAIL ENVIADO", response.status, response.text);
-          setName("");
-          setEmail("");
-          setMessage("");
-        },
-        (error) => {
-          console.log("ERRO: ", error);
-        }
-      );
-  }
+      .then(() => {
+        setIsSubmitting(false);
+        setIsSubmitted(true);
+        setName("");
+        setEmail("");
+        setPhone("");
+        setMessage(`Olá, tenho interesse no ${carro.model} ${carro.description}`);
+
+        setTimeout(() => setIsSubmitted(false), 3000);
+      })
+      .catch((err) => {
+        setIsSubmitting(false);
+        console.error("Erro ao enviar", err);
+        alert("Erro ao enviar mensagem. Tente novamente.");
+      });
+  };
 
   return (
-    <div
-      className="bg-[#3F3D3D] p-3 mx-4 lg:mx-auto max-w-5xl md:max-w-5xl uppercase text-white rounded-2xl relative mt-5"
-      id="entre-em-contato"
-    >
-      <div className="text-white text-3xl sm:text-3xl font-medium text-center sm:text-left">
-        <h1>ENTRE EM CONTATO</h1>
-        <span className="block w-full h-1 bg-[#FF4420] my-4" />
-      </div>
-      <div className="flex flex-col">
-        <form onSubmit={sendEmail}>
-          <input
-            className="w-full p-3 bg-[#2E2D2D]  rounded-md text-white focus:outline-none focus:ring-2 focus:ring-[#4A4A4A]"
-            type="text"
-            placeholder="Digite seu nome"
-            onChange={(e) => setName(e.target.value)}
-            value={name}
-          />
-          <input
-            className="w-full mt-2 p-3 bg-[#2E2D2D]  rounded-md text-white focus:outline-none focus:ring-2 focus:ring-[#4A4A4A]"
-            type="text"
-            placeholder="Digite seu e-mail"
-            onChange={(e) => setEmail(e.target.value)}
-            value={email}
-          />
-          <textarea
-            className="w-full mt-2 p-3 bg-[#2E2D2D]  rounded-md text-white focus:outline-none focus:ring-2 focus:ring-[#4A4A4A]"
-            placeholder="Digite sua mensagem"
-            onChange={(e) => setMessage(e.target.value)}
-            value={message}
-          />
-          <input
+    <div>
+      {isSubmitted ? (
+        <motion.div
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          className="bg-green-900/30 border border-green-800 rounded-lg p-4 text-center"
+        >
+          <p className="text-green-400 font-medium">Mensagem enviada com sucesso!</p>
+          <p className="text-sm text-gray-400 mt-1">Entraremos em contato em breve.</p>
+        </motion.div>
+      ) : (
+        <form onSubmit={handleSubmit} className="space-y-4">
+          <div>
+            <label htmlFor="name" className="block text-sm font-medium text-gray-400 mb-1">
+              Nome
+            </label>
+            <input
+              type="text"
+              id="name"
+              value={name}
+              onChange={(e) => setName(e.target.value)}
+              className="w-full rounded-md border border-[#FF4420]/20 bg-[#121212] px-3 py-2 text-sm text-gray-200 focus:outline-none focus:ring-1 focus:ring-[#ff4d4d]"
+              required
+            />
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label htmlFor="email" className="block text-sm font-medium text-gray-400 mb-1">
+                Email
+              </label>
+              <input
+                type="email"
+                id="email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                className="w-full rounded-md border border-[#FF4420]/20 bg-[#121212] px-3 py-2 text-sm text-gray-200 focus:outline-none focus:ring-1 focus:ring-[#ff4d4d]"
+                required
+              />
+            </div>
+
+            <div>
+              <label htmlFor="phone" className="block text-sm font-medium text-gray-400 mb-1">
+                Telefone
+              </label>
+              <input
+                type="tel"
+                id="phone"
+                value={phone}
+                onChange={(e) => setPhone(e.target.value)}
+                className="w-full rounded-md border border-[#FF4420]/20 bg-[#121212] px-3 py-2 text-sm text-gray-200 focus:outline-none focus:ring-1 focus:ring-[#ff4d4d]"
+                required
+              />
+            </div>
+          </div>
+
+          <div>
+            <label htmlFor="message" className="block text-sm font-medium text-gray-400 mb-1">
+              Mensagem
+            </label>
+            <textarea
+              id="message"
+              rows={3}
+              value={message}
+              onChange={(e) => setMessage(e.target.value)}
+              className="w-full rounded-md border border-[#FF4420]/20 bg-[#121212] px-3 py-2 text-sm text-gray-200 focus:outline-none focus:ring-1 focus:ring-[#ff4d4d]"
+              required
+            />
+          </div>
+
+          <button
             type="submit"
-            value="ENVIAR"
-            className="w-full mt-4 bg-[#FF4420] text-white rounded-3xl p-2 px-4 block text-center font-medium hover:bg-[#FF4420]/50 transition-colors duration-300"
-          />
+            className="w-full bg-[#FF4420] text-white rounded-3xl p-2 px-4 mt-4 block text-center font-medium hover:bg-[#FF4420]/50 transition-colors duration-300"
+            disabled={isSubmitting}
+          >
+            {isSubmitting ? "Enviando..." : "Enviar Mensagem"}
+          </button>
         </form>
-      </div>
+      )}
     </div>
   );
 }
