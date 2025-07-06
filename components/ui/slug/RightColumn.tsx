@@ -1,7 +1,7 @@
 import { Carro } from "../../../interfaces/Interface";
 import { FaWhatsapp } from "react-icons/fa";
 import Link from "next/link";
-import { CarContactForm } from "../../form";
+import { CarContactForm } from "./FormSlug";
 
 
 

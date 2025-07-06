@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
-import { Carro } from "../../interfaces/Interface";
+import { Carro } from "../../../interfaces/Interface";
 
 
 
