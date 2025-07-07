@@ -32,7 +32,7 @@ export default function Informations({ carro }: { carro: Carro }) {
       try {
         await navigator.clipboard.writeText(shareUrl);
         setCopied(true);
-        setTimeout(() => setCopied(false), 3000); 
+        setTimeout(() => setCopied(false), 3000);
       } catch (err) {
         console.error("Erro ao copiar link:", err);
       }
@@ -47,7 +47,7 @@ export default function Informations({ carro }: { carro: Carro }) {
             <IoIosArrowBack className="text-xl hover:scale-150 transition-transform duration-300" />
           </button>
         </Link>
-        <h1 className="ml-4 text-[19px] font-bold md:text-2xl uppercase">
+        <h1 className="ml-4 hidden lg:block text-xl font-bold lg:text-2xl uppercase">
           {carro.model} {carro.description}
         </h1>
       </div>
