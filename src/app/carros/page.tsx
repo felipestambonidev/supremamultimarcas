@@ -2,6 +2,7 @@ import CardsCar from "../../../components/cardscar";
 import WhatsAppButton from "../../../components/ui/floatingbutton";
 import Footer from "../../../components/ui/footer";
 import Header from "../../../components/ui/header";
+import ScrollToTopButton from "../../../components/ui/scrolltopbutton/ScrollToTopButton";
 
 export default function Carros(){
     return(
@@ -9,6 +10,7 @@ export default function Carros(){
             <header>
                 <Header/>
                  <WhatsAppButton />
+                 <ScrollToTopButton />
             </header>
             <section>
                 <CardsCar/>

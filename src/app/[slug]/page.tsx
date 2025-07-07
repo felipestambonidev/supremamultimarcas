@@ -6,6 +6,7 @@ import Footer from "../../../components/ui/footer";
 import CarImageSlider from "../../../components/ui/slug/SlideFromSlug";
 import RightColumn from "../../../components/ui/slug/RightColumn";
 import Informations from "../../../components/ui/slug/informations";
+import ScrollToTopButton from "../../../components/ui/scrolltopbutton/ScrollToTopButton";
 
 export default async function CarDetailPage({
   params,
@@ -22,6 +23,7 @@ export default async function CarDetailPage({
       <header>
         <Header />
         <WhatsAppButton />
+        <ScrollToTopButton />
       </header>
       <div className="max-w-7xl mx-auto flex flex-col gap-2 px-4 lg:px-6">
         <Informations carro={carro} />
