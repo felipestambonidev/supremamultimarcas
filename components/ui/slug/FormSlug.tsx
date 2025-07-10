@@ -34,8 +34,8 @@ export function CarContactForm({ carro }: { carro: Carro }) {
 
     emailjs
       .send(
-        "service_se09jzg",       
-        "template_j89ak1i",     
+        "service_pm6f9s6",       
+        "template_7f8oksa",     
         templateParams,
         "zjZ6JxujDEXl7Gatg"      
       )
