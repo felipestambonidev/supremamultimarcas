@@ -5,6 +5,9 @@ import Header from "../../../components/ui/header";
 import Results from "../../../components/results";
 import Values from "../../../components/values";
 import ScrollToTopButton from "../../../components/ui/scrolltopbutton/ScrollToTopButton";
+import History from "../../../components/history";
+import MeetUsAt from "../../../components/meetusat";
+import Location from "../../../components/location";
 
 
 export default function QuemSomos(){
@@ -16,9 +19,12 @@ export default function QuemSomos(){
                 <ScrollToTopButton />
             </header>
             <div>
+               <History />
                <Values />
                <Results />
                <Brands />
+               <Location/>
+               <MeetUsAt/>
             </div>
             <footer>
                 <Footer/>
