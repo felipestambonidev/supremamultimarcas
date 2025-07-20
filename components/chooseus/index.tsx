@@ -15,7 +15,7 @@ export default function ChooseUs() {
             Por que escolher a Suprema?
           </h1>
           <p className="text-gray-400 max-w-[700px] px-5">
-            Há mais de 40 anos oferecendo os melhores veículos com qualidade e
+            Há mais de 30 anos oferecendo os melhores veículos com qualidade e
             procedência garantida.
           </p>
         </div>
