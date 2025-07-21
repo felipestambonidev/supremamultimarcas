@@ -18,7 +18,7 @@ export default function Brands() {
           >
             NOSSAS MARCAS
           </h1>
-          <p className="mx-auto max-w-2xl text-gray-400 text-base font-normal mt-2 text-center">
+          <p className="mx-auto max-w-2xl text-gray-400 text-lg font-normal mt-2 text-center">
             Trabalhamos com as principais marcas do mercado automotivo
           </p>
         </div>
