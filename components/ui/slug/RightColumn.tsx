@@ -11,7 +11,7 @@ export default function RightColumn({ carro }: { carro: Carro }) {
     return(
         <div>
             <div className="bg-[#1E1E1E] border border-[#FF4420]/20 rounded-2xl p-6 ">
-              <div className="text-3xl font-bold text-[#ff4d4d] mb-4">
+              <div className="text-3xl font-bold text-white mb-4">
                 {carro.price}
               </div>
               <div>
