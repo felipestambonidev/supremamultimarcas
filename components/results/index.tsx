@@ -12,7 +12,7 @@ export default function Results() {
         <h2 className="text-3xl md:text-4xl font-bold text-white uppercase">
           Números que Impressionam
         </h2>
-        <p className="mx-auto max-w-2xl mt-2 text-gray-400 text-base">
+        <p className="mx-auto max-w-2xl mt-2 text-gray-400 text-lg">
           Mais de quatro décadas construindo relacionamentos e realizando sonhos
         </p>
       </div>
