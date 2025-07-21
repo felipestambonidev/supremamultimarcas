@@ -7,12 +7,12 @@ export default function History() {
     <AnimatedSection>
       <section className="py-12 md:py-16 bg-[#1a1a1a] mt-5">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-30 items-center">
             <div>
               <h2 className="text-3xl md:text-4xl font-bold text-white uppercase mb-7 text-center lg:text-left">Nossa História</h2>
-              <div className="space-y-4 text-gray-400 text-center lg:text-left">
+              <div className="space-y-4 text-gray-400 text-center lg:text-left text-lg">
                 <p>
-                  Fundada em 1989, a <span className="text-[#ff4d4d] font-semibold">Suprema Multimarcas</span>{" "}
+                  Fundada em 1989, a <span className="text-[#ff4d4d] font-semibold ">Suprema Multimarcas</span>{" "}
                   nasceu do sonho de oferecer veículos de qualidade com atendimento diferenciado. Ao longo de mais
                   de 30 anos, construímos uma reputação sólida baseada na confiança, transparência e excelência no
                   atendimento.
