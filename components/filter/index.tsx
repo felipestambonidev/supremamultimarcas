@@ -83,14 +83,14 @@ export default function FiltroCarros() {
           <select
             value={marca}
             onChange={(e) => setMarca(e.target.value)}
-            className="bg-[#121212]/80 p-3 rounded-lg border border-[#FF4420]/20 text-white font-medium w-full hover:scale-105 transition-transform duration-300"
+            className="bg-[#282828] p-3 rounded-lg  text-white font-medium w-full hover:scale-105 transition-transform duration-300 outline-none"
           >
             <option>SELECIONE A MARCA</option>
             {marcas.map((m, i) => (
               <option
                 key={i}
                 value={m}
-                className="bg-[#121212] text-white font-medium uppercase"
+                className="bg-[#121212] text-white font-medium uppercase outline-none"
               >
                 {m}
               </option>
@@ -101,7 +101,7 @@ export default function FiltroCarros() {
             value={modelo}
             onChange={(e) => setModelo(e.target.value)}
             disabled={!marca}
-            className="bg-[#121212]/80 p-3 rounded-lg border border-[#FF4420]/20 text-white font-medium w-full hover:scale-105 transition-transform duration-300"
+            className="bg-[#282828] p-3 rounded-lg  text-white font-medium w-full hover:scale-105 transition-transform duration-300 outline-none"
           >
             <option>SELECIONE O MODELO</option>
             {modelosDisponiveis.map((m, i) => (
@@ -119,7 +119,7 @@ export default function FiltroCarros() {
             value={ano}
             onChange={(e) => setAno(e.target.value)}
             disabled={!modelo}
-            className="bg-[#121212]/80 p-3 rounded-lg border border-[#FF4420]/20 text-white font-medium w-full hover:scale-105 transition-transform duration-300"
+            className="bg-[#282828] p-3 rounded-lg shadow-lg text-white font-medium w-full hover:scale-105 transition-transform duration-300 outline-none"
           >
             <option>SELECIONE O ANO</option>
             {anosDisponiveis.map((a, i) => (
@@ -137,7 +137,7 @@ export default function FiltroCarros() {
             value={cor}
             onChange={(e) => setCor(e.target.value)}
             disabled={!ano}
-            className="bg-[#121212]/80 p-3 rounded-lg border border-[#FF4420]/20 text-white font-medium w-full hover:scale-105 transition-transform duration-300"
+            className="bg-[#282828] p-3 rounded-lg  text-white font-medium w-full hover:scale-105 transition-transform duration-300 outline-none"
           >
             <option>SELECIONE A COR</option>
             {coresDisponiveis.map((c, i) => (
@@ -152,14 +152,21 @@ export default function FiltroCarros() {
           </select>
         </div>
 
-        <div className="mt-4">
+        <div className="mt-4 w-full flex justify-center">
           <button
             onClick={handleSubmit}
-            className="bg-[#FF4420] hover:bg-[#FF4420]/50 transition-colors duration-300 p-3 px-5 gap-2 rounded-2xl text-white font-medium flex items-center justify-center w-40"
+            className="group/btn relative block w-full max-w-xs"
           >
-            BUSCAR <FaSearch className="ml-2" />
+            <div className="relative bg-[#FF4524] rounded-xl p-3.5 text-center font-medium text-white transition-all duration-300 hover:bg-[#FF4420]/90 hover:shadow-lg hover:shadow-[#FF4420]/30 hover:scale-[1.02] overflow-hidden">
+              <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent translate-x-[-100%] group-hover/btn:translate-x-[100%] transition-transform duration-700 skew-x-12"></div>
+              <div className="relative flex items-center justify-center gap-2">
+                <span className="tracking-wide font-medium">BUSCAR</span>
+                <FaSearch className="w-4 h-4 transition-transform duration-300 group-hover/btn:translate-x-1" />
+              </div>
+            </div>
           </button>
         </div>
+        
       </div>
     </div>
   );
