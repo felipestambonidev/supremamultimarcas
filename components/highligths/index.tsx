@@ -3,9 +3,11 @@ import cars from "../../data/cars.json";
 import Image from "next/image";
 import { IoCalendar } from "react-icons/io5";
 import { BsFuelPumpFill } from "react-icons/bs";
+import { PiGaugeFill } from "react-icons/pi";
 import { Card } from "../ui/card";
 import { AnimatedSection } from "../ui/animations/animated-section";
 import { BiChevronRight } from "react-icons/bi";
+import { FaLongArrowAltRight } from "react-icons/fa";
 
 export default function Highlights() {
   const highlightedCars = cars
@@ -27,16 +29,17 @@ export default function Highlights() {
           </h1>
           <Link
             href="/carros"
-            className="flex items-center justify-center text-[#ff4d4d] hover:text-[#753c3c] duration-700 font-medium text-center md:text-right w-full md:w-auto"
+            className="flex items-center justify-center text-[#FF4524] hover:text-[#753c3c] duration-700 font-medium text-center md:text-right w-full md:w-auto"
           >
             VER TODOS <BiChevronRight className="h-5 w-4 ml-1" />
           </Link>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-11 px-12 md:px-16 mt-10 flex-col md:flex-row flex-wrap text-center justify-center justify-items-center">
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-11 px-12 md:px-16 mt-10">
           {highlightedCars.map((car, index) => (
             <Card
               key={index}
-              className="p-5 shadow-xl hover:scale-105 transition-transform duration-300 max-w-[400px] w-full"
+              className="p-5 shadow-xl hover:scale-105 transition-transform duration-300 max-w-[400px] w-full bg-[#1a1a1a] rounded-2xl"
             >
               <div>
                 <Link href={car.slug}>
@@ -49,31 +52,46 @@ export default function Highlights() {
                   />
                 </Link>
               </div>
-              <div className="text-center mt-2 text-white font-medium uppercase text-2xl">
+
+              <div className="text-left mt-4 text-white font-medium uppercase text-2xl">
                 <h1>{car.model}</h1>
                 <p className="text-sm text-gray-400 font-normal uppercase">
                   {car.description}
                 </p>
-                <p className="text-[#FF4420] text-3xl mt-2 font-bold">
+                <p className="text-gray-200 text-3xl mt-2 font-bold">
                   {car.price}
                 </p>
               </div>
-              <div className="flex justify-center gap-4 mt-2 text-white text-base font-medium flex-wrap">
-                <div className="bg-[#2B2B2B] rounded-3xl p-2 px-4 flex items-center gap-2">
-                  <IoCalendar />
+
+              <div className="flex flex-wrap justify-start gap-4 mt-4 text-gray-400 text-base font-medium">
+                <div className="flex items-center gap-2">
+                  <IoCalendar className="text-white" />
                   <p>{car.year}</p>
                 </div>
-                <div className="bg-[#2B2B2B] rounded-3xl p-2 px-4 flex items-center gap-2 uppercase">
-                  <BsFuelPumpFill />
+                <div className="flex items-center gap-2 uppercase">
+                  <BsFuelPumpFill className="text-white" />
                   <p>{car.fuel}</p>
                 </div>
+                <div className="flex items-center gap-2">
+                  <PiGaugeFill className="text-white" />
+                  <p>{car.km}</p>
+                </div>
               </div>
+
               <div>
                 <Link
                   href={car.slug}
-                  className="bg-[#FF4420] text-white rounded-3xl p-2 px-4 mt-4 block text-center font-medium hover:bg-[#FF4420]/50 transition-colors duration-300"
+                  className="group/btn relative block w-full mt-5"
                 >
-                  VER MAIS
+                  <div className="relative bg-[#FF4524] rounded-xl p-3.5 text-center font-medium text-white transition-all duration-300 hover:bg-[#FF4420]/90 hover:shadow-lg hover:shadow-[#FF4420]/30 hover:scale-[1.02] overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent translate-x-[-100%] group-hover/btn:translate-x-[100%] transition-transform duration-700 skew-x-12"></div>
+                    <div className="relative flex items-center justify-center gap-2">
+                      <span className="tracking-wide font-medium">
+                        VER MAIS
+                      </span>
+                      <FaLongArrowAltRight className="w-4 h-4 transition-transform duration-300 group-hover/btn:translate-x-1" />
+                    </div>
+                  </div>
                 </Link>
               </div>
             </Card>
