@@ -1,12 +1,10 @@
-// components/VehicleCTA.tsx
+
 import Link from "next/link";
 
 export default function VehicleCTA() {
   return (
     <section className="bg-[#121212] text-white py-16 px-6">
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 items-center gap-10">
-        
-        {/* Texto e botões */}
         <div>
           <h2 className="text-2xl md:text-3xl font-bold mb-4">
             Pronto para encontrar seu próximo veículo?
@@ -28,8 +26,6 @@ export default function VehicleCTA() {
             </Link>
           </div>
         </div>
-
-        {/* Vídeo sem controles, responsivo, com loop */}
         <div className="w-full max-w-md mx-auto rounded-lg overflow-hidden">
           <video
             src="/videos/videocarro.mp4"
