@@ -75,7 +75,7 @@ export default function Footer() {
 
       <div className="mt-10 text-center text-gray-400 text-sm border-t border-[#FF4420]/20 uppercase">
         <p className="mt-5">© {new Date().getFullYear()}
-          <span className="text-red-500">Suprema Multimarcas.</span> Todos os direitos reservados.
+          <span className="text-red-500"> Suprema Multimarcas. </span> Todos os direitos reservados.
         </p>
       </div>
     </footer>
