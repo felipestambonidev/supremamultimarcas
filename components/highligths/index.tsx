@@ -35,7 +35,7 @@ export default function Highlights() {
           </Link>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-11 px-12 md:px-16 mt-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-11 px-4 md:px-16 mt-5">
           {highlightedCars.map((car, index) => (
             <Card
               key={index}
