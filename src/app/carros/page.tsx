@@ -15,7 +15,7 @@ export default function Carros(){
             <section>
                 <CardsCar/>
             </section>
-            <footer>
+            <footer className="mt-10">
                 <Footer/>
             </footer>
         </div>
