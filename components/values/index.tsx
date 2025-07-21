@@ -11,7 +11,7 @@ export default function Values() {
           <h2 className="text-3xl md:text-4xl font-bold text-white uppercase">
             Nossos Valores
           </h2>
-          <p className="mx-auto max-w-2xl mt-2 text-gray-400 text-base">
+          <p className="mx-auto max-w-2xl mt-2 text-gray-400 text-lg">
             Princípios que norteiam nossa atuação e garantem a satisfação dos nossos clientes
           </p>
         </div>
