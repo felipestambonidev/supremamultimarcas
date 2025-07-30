@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function VehicleCTA() {
   return (
-    <section className="bg-[#121212] text-white py-16 px-6">
+    <section className="bg-[#1A1A1A] text-white py-16 px-6 mt-20">
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 items-center gap-10">
         <div>
           <h2 className="text-2xl md:text-3xl font-bold mb-4">
