@@ -505,17 +505,29 @@
         "principalimage":"/images/cars/hyundai/creta/foto1creta.jpg",
         "highlight":false,
         "armored": "Não",
+         "features": [
+            "Ar-condicionado",
+            "AirBag Motorista",
+            "Ar-Quente",
+            "Volante com Regulagem de Altura",
+            "Retrovisores Elétricos",
+            "Freios ABS",
+            "Direção Hidráulica",
+            "Vidros Elétricos",
+            "Travas Elétricas",
+            "Câmbio Automático"
+        ],
         "images":[
             "/images/cars/hyundai/creta/foto1creta.jpg",
             "/images/cars/hyundai/creta/foto2creta.jpg",
             "/images/cars/hyundai/creta/foto3creta.jpg",
-            "/images/cars/hyundai/creta/foto4creta.jpg",
             "/images/cars/hyundai/creta/foto5creta.jpg",
             "/images/cars/hyundai/creta/foto6creta.jpg",
             "/images/cars/hyundai/creta/foto7creta.jpg",
             "/images/cars/hyundai/creta/foto8creta.jpg",
             "/images/cars/hyundai/creta/foto9creta.jpg",
             "/images/cars/hyundai/creta/foto10creta.jpg"
+           
         ]
     }
 
