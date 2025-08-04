@@ -25,7 +25,7 @@ export default function SpecificationsCar({ carro }: { carro: Carro }) {
             </div>
             <div>
               <p className="text-sm text-gray-400">Ano</p>
-              <p className="font-medium text-white">{carro.year}</p>
+              <p className="font-medium text-sm text-white">{carro.year}</p>
             </div>
           </div>
           <div className="bg-[#1E1E1E] border border-[#FF4420]/20 rounded-lg p-4 flex items-center">
@@ -33,8 +33,8 @@ export default function SpecificationsCar({ carro }: { carro: Carro }) {
               <Gauge className="h-5 w-5 text-[#ff4d4d]" />
             </div>
             <div>
-              <p className="text-sm text-gray-400">Quilometragem</p>
-              <p className="font-medium text-white">{carro.km}</p>
+              <p className="text-sm text-gray-400">Km</p>
+              <p className="font-medium text-sm text-white">{carro.km}</p>
             </div>
           </div>
           <div className="bg-[#1E1E1E] border border-[#FF4420]/20 rounded-lg p-4 flex items-center">
@@ -43,7 +43,7 @@ export default function SpecificationsCar({ carro }: { carro: Carro }) {
             </div>
             <div>
               <p className="text-sm text-gray-400">Câmbio</p>
-              <p className="font-medium text-white">{carro.carchange}</p>
+              <p className="font-medium text-sm text-white">{carro.carchange}</p>
             </div>
           </div>
           <div className="bg-[#1E1E1E] border border-[#FF4420]/20 rounded-lg p-4 flex items-center">
@@ -52,7 +52,7 @@ export default function SpecificationsCar({ carro }: { carro: Carro }) {
             </div>
             <div>
               <p className="text-sm text-gray-400">Combustível</p>
-              <p className="font-medium text-white">{carro.fuel}</p>
+              <p className="font-medium text-sm text-white">{carro.fuel}</p>
             </div>
           </div>
           <div className="bg-[#1E1E1E] border border-[#FF4420]/20 rounded-lg p-4 flex items-center">
@@ -61,7 +61,7 @@ export default function SpecificationsCar({ carro }: { carro: Carro }) {
             </div>
             <div>
               <p className="text-sm text-gray-400">Cor</p>
-              <p className="font-medium text-white">{carro.color}</p>
+              <p className="font-medium text-sm text-white">{carro.color}</p>
             </div>
           </div>
           <div className="bg-[#1E1E1E] border border-[#FF4420]/20 rounded-lg p-4 flex items-center">
@@ -70,7 +70,7 @@ export default function SpecificationsCar({ carro }: { carro: Carro }) {
             </div>
             <div>
               <p className="text-sm text-gray-400">Portas</p>
-              <p className="font-medium text-white">{carro.doors}</p>
+              <p className="font-medium text-sm text-white">{carro.doors}</p>
             </div>
           </div>
           <div className="bg-[#1E1E1E] border border-[#FF4420]/20 rounded-lg p-4 flex items-center">
@@ -79,7 +79,7 @@ export default function SpecificationsCar({ carro }: { carro: Carro }) {
             </div>
             <div>
               <p className="text-sm text-gray-400">Carroceria</p>
-              <p className="font-medium text-white">{carro.year}</p>
+              <p className="font-medium text-sm text-white">{carro.bodywork}</p>
             </div>
           </div>
           <div className="bg-[#1E1E1E] border border-[#FF4420]/20 rounded-lg p-4 flex items-center">
@@ -90,7 +90,7 @@ export default function SpecificationsCar({ carro }: { carro: Carro }) {
             </div>
             <div>
               <p className="text-sm text-gray-400">Final da Placa</p>
-              <p className="font-medium text-white">{carro.endofplate}</p>
+              <p className="font-medium text-sm text-white">{carro.endofplate}</p>
             </div>
           </div>
         </div>
