@@ -8,6 +8,10 @@ import RightColumn from "../../../components/ui/slug/RightColumn";
 import Informations from "../../../components/ui/slug/informations";
 import ScrollToTopButton from "../../../components/ui/scrolltopbutton/ScrollToTopButton";
 import DescriptionCars from "../../../components/ui/slug/DescriptionCar";
+import SpecificationsCar from "../../../components/ui/slug/Specifications";
+import CaracterCar from "../../../components/ui/slug/CaracterCar";
+
+
 
 export default async function CarDetailPage({
   params,
@@ -35,6 +39,8 @@ export default async function CarDetailPage({
           <div className="flex-1">
             <CarImageSlider carro={carro} />
             <DescriptionCars carro={carro} />
+            <SpecificationsCar carro={carro} />
+            <CaracterCar carro={carro} />
           </div>
           <div className="w-full lg:w-[400px]">
             <div className="hidden lg:block sticky top-24">
