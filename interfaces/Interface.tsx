@@ -17,4 +17,5 @@ export interface Carro {
   highlight: boolean;
   armored: string;
   images: string[];
+  features?: string[];
 }
